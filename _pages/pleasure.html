@@ -4,6 +4,9 @@ id: pleasure
 nav: true
 nav-order: 2
 title: Für Genießer
+banner:
+  title: Für Genießer
+  title-sub: Test headline
 intro: this is my home page
 
 sections:
@@ -19,7 +22,7 @@ sections:
 ---
 
 
-{% include nav/page.html content=page.sections %}
+
 
 
 <div class="container vpad--xxl">
@@ -34,7 +37,7 @@ sections:
   <div class="space--lg"></div>
 
 
-
+{% include nav/page.html content=page.sections %}
 
   <div class="title title--lg text--center">Bob layout</div>
 
