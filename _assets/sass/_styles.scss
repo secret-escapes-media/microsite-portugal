@@ -1,1 +1,41 @@
-// general styles for the project that wouldn't be a reuseable component
+
+
+.highlight-shadow{
+
+      -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+}
+
+.highlight-shadow:hover{
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.highlights-link{
+
+  color: #f77c04;
+  padding-top: 10px;
+  font-size: 16px;
+
+}
+
+.highlights-divider::after{
+
+    content: url(../img/graphics/highlight-divider-aft.png);
+
+margin-left: 15px;
+
+
+}
+.highlights-divider::before{
+  content: url(../img/graphics/highlight-divider-bef.png);
+margin-right: 15px;
+}
+.title-divider::after{
+  content: url(../img/graphics/title-divider.png);
+  display: block;
+  margin-top: -60px;
+}

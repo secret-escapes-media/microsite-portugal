@@ -8,65 +8,121 @@ intro: this is my home page
 
 sections:
   - id: section-1
-    title: Section 1
+    title: Algarve
   - id: section-2
-    title: Section 2
+    title: Azoren
   - id: section-3
-    title: Section 3
+    title: Madeira
   - id: section-4
-    title: Section 4
+    title: Centro
 
 ---
 
 
-{% include nav/page.html content=page.sections %}
+
+<div class="container vpad--lg">
+  <div class="container container--xl text--center">
 
 
-<div class="container vpad--xxl">
+    <p class="text--lg">Portugal fasziniert mit Facettenreichtum und begeistert das Herz von Urlaubern nicht nur im Sommer. Im Süden lockt die Algarve mit rauen Felsküsten und weiten Sandstränden Golfer und Radfahrer. Das historische Centro zwischen Silberküste und Serra da Estrela bietet Perlen der Bergwelt und der Meeresküste – und dazwischen Weinanbaugebiete mit sanft geschwungenen Hügellandschaften. Die Vulkanlandschaften der Inselgruppen der Azoren und die Blumeninsel Madeira liegen weit draußen im Atlantik und sind besonders attraktiv für Paraglider und Wanderer. Tauchen Sie im wahrsten Sinne des Wortes tief ein – hier finden Sie auch eine eindrucksvolle Unterwasserwelt.</p>
+    <div class="space--xl"></div>
+  </div>
+</div>
 
-  <div class="title title--lg text--center">Bob layout</div>
+  {% include nav/page.html content=page.sections %}
+  <div class="container vpad--lg">
+  <div class="space--xxl"></div>
+
+  <div class="core-title core-title--lg text--center" id="section-1">Algarve</div>
 
   <div class="space--lg"></div>
+  <div class="container container--xl text--center">
 
-  <div class="bob" id="section-1">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
+
+    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Eius quasi mollitia incidunt repudiandae voluptatibus earum nesciunt, sit eos tenetur veritatis vel facere ea nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="space--xl"></div>
+
+  </div>
+  <div class="core-title core-title--sm text--center highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+  <div class="row row--gutters-lg">
+    <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="highlight1" data-modal-group="section" class="js-open-modal highlight">
+      <div class=" highlight-shadow">
+      <div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Praia da Falésia</h4><div class="space--xs"></div>Auch im Winter sind die weltberühmten Strände der etwa 200 km langen...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
+
+      <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="highlight2" data-modal-group="section" class="js-open-modal highlight">  <div class=" highlight-shadow">
+        <div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a></div>
+  </div></div>
+
+
+  <div class="space--xxl"></div>
+
+  <div class="core-title core-title--lg text--center" id="section-2">Azoren</div>
+
+  <div class="space--lg"></div>
+  <div class="container container--xl text--center">
+
+
+    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Eius quasi mollitia incidunt repudiandae voluptatibus earum nesciunt, sit eos tenetur veritatis vel facere ea nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="space--xl"></div>
+
+  </div>
+
+  <div class="core-title core-title--sm text--center highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+  <div class="row row--gutters-lg">
+    <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="wahoo-water-park" data-modal-group="section" class="js-open-modal highlight">
+      <div class="highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight3.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Praia da Falésia</h4><div class="space--xs"></div>Auch im Winter sind die weltberühmten Strände der etwa 200 km langen...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
+      <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="wahoo-water-park" data-modal-group="section" class="js-open-modal highlight"><div class="highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight4.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
+  </div>
+
+    <div class="space--xxl"></div>
+  <div class="core-title core-title--lg text--center" id="section-3">Madeira</div>
+
+  <div class="space--lg"></div>
+  <div class="container container--xl text--center">
+
+
+    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Eius quasi mollitia incidunt repudiandae voluptatibus earum nesciunt, sit eos tenetur veritatis vel facere ea nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="space--xl"></div>
+
+  </div>
+  <div class="core-title core-title--sm text--center highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+  <div class="row row--gutters-lg">
+    <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="highlight5" data-modal-group="section" class="js-open-modal highlight">
+      <div class="highlight-shadow">
+        <div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight5.jpg');">
+        <div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Praia da Falésia</h4>
+      <div class="space--xs"></div>Auch im Winter sind die weltberühmten Strände der etwa 200 km langen...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a>
     </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
   </div>
-  <div class="bob bob--swap" id="section-2">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
-    </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
+      <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="highlight6" data-modal-group="section" class="js-open-modal highlight"><div class="highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight6.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
   </div>
 
-</div>
+    <div class="space--xxl"></div>
+  <div class="core-title core-title--lg text--center" id="section-4">Centro</div>
 
-<div class="title title--lg vpad--lg text--center">Harvey layout</div>
+  <div class="space--lg"></div>
+  <div class="container container--xl text--center">
 
-<div class="harvey" id="section-3">
-  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
-    <a class="harvey__link" href="#image-link"></a>
-  </div>
-  <div class="harvey__text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-  </div>
-</div>
 
-<div class="harvey harvey--swap" id="section-4">
-  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
-    <a class="harvey__link" href="#image-link"></a>
+    <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Eius quasi mollitia incidunt repudiandae voluptatibus earum nesciunt, sit eos tenetur veritatis vel facere ea nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ducimus, fuga non eos praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="space--xl"></div>
+
   </div>
-  <div class="harvey__text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
+  <div class="core-title core-title--sm text--center highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+  <div class="row row--gutters-lg">
+    <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="wahoo-water-park" data-modal-group="section" class="js-open-modal highlight"><div class="highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight7.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Nazaré</h4><div class="space--xs"></div>Das kleine Örtchen Nazaré, im Sommer Fischerdorf und Pilgerstätte... <br><div class="highlights-link text--bold">Mehr erfahren</div> </div></a></div></div>
+      <div class="col col--lg-6 col--xxl-4 text--center"><a href="javascript:void(0);" data-modal-item="wahoo-water-park" data-modal-group="section" class="js-open-modal highlight"><div class="highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight8.jpg');"><div class="highlight__icon"></div></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class="highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
   </div>
-</div>
+  <div class="space--lg"></div>
