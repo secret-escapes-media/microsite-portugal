@@ -31,32 +31,47 @@
   padding-right: 22px;
 }
 
+
 .pt-nature{
   background-color: #4cb379;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-
 }
+.pt-nature-font{
+  color: #299056;
+  }
+
+
 .pt-pleasure{
   background-color: #fcc606;
   border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-
 }
+.pt-pleasure-font{
+  color: #fcc606;
+  }
+
+
 .pt-active{
   background-color: #4ea1d9;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-
 }
+.pt-active-font{
+  color: #4ea1d9;
+  }
+
+
 .pt-culture{
   background-color: #ea5152;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-
 }
+.pt-culture-font{
+  color: #ea5152;
+  }
 
-/************ Preview-Box ***************/
+/************ Preview-Box / accordion***************/
 
 
 
@@ -80,6 +95,31 @@ border-radius: 6px;
   margin-left: 15%;
   margin-top: 50%;
 color: #fff;
+}
+
+.accordion {
+    /*background-color: #eee;*/
+
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    /*background-color: #ccc;*/
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
 
 
@@ -125,6 +165,8 @@ margin-right: 15px;
   margin-top: -60px;
 }
 
+
+
 /**********Map*************/
 
 
@@ -135,7 +177,7 @@ margin-right: 15px;
     stroke-opacity:0.5;
     }
 
-  .pins:hover{
+  .pt-map-pins:hover{
   width: 50px;
   cursor: pointer;
     stroke:white;
@@ -148,21 +190,7 @@ margin-right: 15px;
 
 
 /*********Gallery***********/
-/*
-.row > .column {
-  padding: 0 8px;
-}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}*/
 
 /* The Modal (background) */
 .pt-modal_highlights {
@@ -180,39 +208,68 @@ margin-right: 15px;
 /* Modal Content */
 .pt-modal-content-details {
   position: absolute;
-/*  background-color: #fefefe;*/
+/**/
 
+height: 100%;
+max-height: 600px;
+width: 100%;
+margin: auto;
 
-height: 550px;
-width: 800px;
+padding:0 55px;
 
-  margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+ top: 0; left: 0; bottom: 0; right: 0;
+ overflow: auto;
+}
+
+.pt-mySlides {
+  display: none;
+ margin: auto;
+
+max-width:800px;
+width:100%;
+
+  background-color: #fff;
+
 }
 
 .pt-highlight-modal-img{
-/*max-height:  350px;*/
-height: 400px;
-
+/*max-height:350px;*/
+  width: 100%;
+  max-width: 800px;
+  padding-top: 47.5%;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .pt-highlight-modal-text{
-/**/padding: 20px;
-height: 220px;
-width: 100%;
-overflow: auto;
+/**/padding: 30px;
 }
 
+.pt-highlight-youtube{
+width:100%;
+height:100%;
+margin:0 auto;
+background-color:#000;
+}/**/
+
+.h_iframe        {position:relative; background-color:#000;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
 /* The Close Button */
 .pt-close {
-  color: white;
-  position: absolute;
-  top: 120px;
-  right: 125px;
-  font-size: 35px;
-  font-weight: bold;
+
+    position: absolute;
+    background-size:16px;
+    top: 0px;
+    right: 0px;
+    background-image: url('../img/icons/close-dark.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+width: 55px;
+height: 55px;
+  background-color: #999;
+  z-index:999;
+
 }
 
 .pt-close:hover,
@@ -222,13 +279,6 @@ overflow: auto;
   cursor: pointer;
 }
 
-.pt-mySlides {
-overflow: auto;
-  display: none;
-
-
-  background-color: #fff;
-}
 
 .pt-cursor {
   cursor: pointer;
@@ -238,55 +288,82 @@ overflow: auto;
 .pt-prev,
 .pt-next {
   cursor: pointer;
+  background-size:16px;
+
+
+ top: 46%;
+
   position: absolute;
-  top: 30%;
-  width: auto;
-  padding: 16px;
-  position: fixed;
   /*margin-top: -50px;*/
-  color: white;
   font-weight: bold;
-  font-size: 80px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+width: 55px;
+height: 100px;
+  transition: 0.3s ease;
+
   user-select: none;
   -webkit-user-select: none;
   z-index:999;
 display: none;
-  /*background-color: #ff00ff;*/
+  background-color: #999;
 }
 
 /* Position the "next button" to the right */
 .pt-next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  background-image: url('../img/icons/arrow-right-dark.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pt-prev {
+  left: 0;
+  background-image: url('../img/icons/arrow-left-dark.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .pt-prev:hover,
 .pt-next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
 }
+
+
+@media only screen and (max-width: 650px) {
+  .pt-prev,
+  .pt-next {
+      position: absolute;
+    cursor: pointer;
+    background-size:16px;
+  top:100%;
+   bottom: 50%;
+
+    margin-top: -50px;
+    font-weight: bold;
+  width: 49.9%;
+  height: 55px;
+    transition: 0.3s ease;
+
+    user-select: none;
+    -webkit-user-select: none;
+    z-index:999;
+  display: none;
+    background-color: #f2f5f7;
+
+}
+.pt-close {
+
+  background-color: #f2f5f7;
+
+}
+.pt-modal-content-details {
+  padding: 0;
+bottom: 60px;
+max-height: 450px;
+}}
 
 /* Number text (1/3 etc) */
-.pt-numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
-img {
-  /*margin-bottom: -4px;*/
-}
 
-.pt-caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
 
 .pt-demo {
   opacity: 0.6;
@@ -304,7 +381,26 @@ img.hover-shadow {
 .pt-hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-@media only screen and (max-width: 970px) {
-  .pt-mob-hide-col{display: none;}
 
+
+
+/*************** Quiz *******************/
+
+.pt-quiz-img{
+
+  border: #fff 5px solid;
+  cursor: pointer;
+}
+
+.pt-quiz-img:hover{
+
+  border: #fa902a 5px solid;
+}
+
+
+
+/************ hide map *************/
+@media only screen and (max-width: 970px) {
+  .pt-mob-hide{display: none;}
+.pt-hidden{ display: block;}
 }

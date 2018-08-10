@@ -53,10 +53,10 @@ Portugal fasziniert mit Facettenreichtum und begeistert das Herz von Urlaubern n
 <div class="row row--gutters-lg">
   <div class="col col--lg-6 col--xxl-4 text--center"><a  onclick="openModal();currentSlide(1)" data-modal-item="highlight1" data-modal-group="section" class="">
     <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
-    <h4 class="core-title core-title--xs text--bold text--upper">Praia da Falésia</h4><div class="space--xs"></div>Auch im Winter sind die weltberühmten Strände der etwa 200 km langen...<br><div class="pt-highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
+    <h4 class="core-title core-title--xs text--bold text--upper">Praia da Falésia</h4><div class="space--xs"></div>Auch im Winter sind die weltberühmten Strände der etwa 200 km langen...<br><div class="pt-nature-font text--bold">Mehr erfahren</div></div></a></div></div>
     <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(2)"  data-modal-item="highlight2" data-modal-group="section" class="">
       <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
-      <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class="pt-highlights-link text--bold">Mehr erfahren</div></div></a></div></div>
+      <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class="pt-nature-font text--bold">Mehr erfahren</div></div></a></div></div>
 </div>
 
 
@@ -134,60 +134,66 @@ Portugal fasziniert mit Facettenreichtum und begeistert das Herz von Urlaubern n
 </div>
 
 <!-- Gallery /-->
-<div class="pt-prev" id="arrow1" onclick="plusSlides(-1)">&#10094;</div >
-<div  class="pt-next" id="arrow2" onclick="plusSlides(1)">&#10095;</div >
-<div id="myModalWind" class="pt-modal_highlights" onclick="closeModalWind()">
-  <span class="pt-close pt-cursor" >&times;</span>
+<div id="myModalWind" class="pt-modal_highlights">
+<div class="pt-prev" id="arrow1" onclick="plusSlides(-1)" ></div >
+<div  class="pt-next" id="arrow2" onclick="plusSlides(1)"></div >
+  <div class="pt-close pt-cursor" onclick="closeModalWind()"></div>
   <div class="pt-modal-content-details">
 
-    <div class="pt-mySlides">
-      <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"></div>
+    <div class="pt-mySlides" onclick="plusSlides(1)">
+    <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"></div>
 
-      <div class="pt-highlight-modal-text">Cabo de São Vicente<br>Am Cabo de São Vicente fällt das Festland plötzlich 70 Meter ins tosende Meer. Hier ist nicht nur der südwestlichste Punkt Portugals, sondern auch das Ende Europas: Nirgendwo sonst auf dem Festland ist man dem Amerikanischen Kontinent näher. Es gilt seit Jahrtausenden als ein heiliger, von den Göttern bewohnter Ort. Zwischen dramatischen Klippen und malerischen kleinen Stränden steht hier der lichtstärkste Leuchtturm Europas und strahlt auf den Atlantik. Städte wie Sagres mit dem berühmten Fortaleza de Sagres und Vila do Bispo mit den einmaligen Grabungsstätten aus der Jungsteinzeit liegen gleich in der Nähe. </div>
+      <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Praia da Falésia</div>
+        <div class="space--xs"></div>
+  Auch im Winter sind die weltberühmten Strände der etwa 200 km langen Algarve ein lohnendes Reiseziel. Am Praia da Falésia spazieren Sie entlang roter, mit Pinien bewachsener Sandsteinfelsen über den breiten Sandstrand. Dank des milden Klimas können Sie das ganze Jahr über die beeindruckende Landschaft und das Rauschen des Meeres genießen, noch dazu haben Sie außerhalb der Hauptsaison die romantischen kleinen Buchten oft für sich allein. Wassersportler finden hier ideale Bedingungen vor: Zwischen Sagres und Faro trifft sich zu dieser Zeit die Surfszene, von Lago starten spannende Bootsfahrten und rund um die Ilha de Tavira und die Ilha de Cabanas können Sie Paddel- und Kanutouren unternehmen.
+
+     </div>
 
     </div>
 
-    <div class="pt-mySlides">
+    <div class="pt-mySlides" onclick="plusSlides(1)">
       <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"></div>
 
-      <div class="pt-highlight-modal-text">Praia da Falésia<br>
-
-            Auch im Winter sind die weltberühmten Strände der etwa 200 km langen Algarve ein lohnendes Reiseziel. Am Praia da Falésia spazieren Sie entlang roter, mit Pinien bewachsener Sandsteinfelsen über den breiten Sandstrand. Dank des milden Klimas können Sie das ganze Jahr über die beeindruckende Landschaft und das Rauschen des Meeres genießen, noch dazu haben Sie außerhalb der Hauptsaison die romantischen kleinen Buchten oft für sich allein. Wassersportler finden hier ideale Bedingungen vor: Zwischen Sagres und Faro trifft sich zu dieser Zeit die Surfszene, von Lago starten spannende Bootsfahrten und rund um die Ilha de Tavira und die Ilha de Cabanas können Sie Paddel- und Kanutouren unternehmen.</div>
+      <div class="pt-highlight-modal-text"><div class="core-title core-title--xs ">Cabo de São Vicente</div>
+  <div class="space--xs"></div>
+              Am Cabo de São Vicente fällt das Festland plötzlich 70 Meter ins tosende Meer. Hier ist nicht nur der südwestlichste Punkt Portugals, sondern auch das Ende Europas: Nirgendwo sonst auf dem Festland ist man dem Amerikanischen Kontinent näher. Es gilt seit Jahrtausenden als ein heiliger, von den Göttern bewohnter Ort. Zwischen dramatischen Klippen und malerischen kleinen Stränden steht hier der lichtstärkste Leuchtturm Europas und strahlt auf den Atlantik. Städte wie Sagres mit dem berühmten Fortaleza de Sagres und Vila do Bispo mit den einmaligen Grabungsstätten aus der Jungsteinzeit liegen gleich in der Nähe.</div>
 
     </div>
 
-        <div class="pt-mySlides">
+        <div class="pt-mySlides" onclick="plusSlides(1)">
           <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight3.jpg');"></div>
 
-          <div class="pt-highlight-modal-text">Geotourismus<br>
-
+          <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Geotourismus</div>
+  <div class="space--xs"></div>
               Das geologische Erbe der Azoren schickt Sie auf eine Zeitreise zur vulkanischen Entstehung der Inseln. Auf Terceira können Sie in der über 3.000 Jahre alten Algar do Carvão auf erstarrtem Magma durch einen Vulkanschlot schreiten und auch die Furna do Enxofre auf Graciosa verdankt ihre Entstehung einem Vulkanausbruch: In der riesigen Lavahöhle gibt es einen See aus kaltem Schwefelwasser. Die Lavahöhle Gruta das Torres gehört gar zu den längsten der Welt! Ein einmaliges Erlebnis ist außerdem ein Bad im warmen, eisenhaltigen Thermalwasser zu Füßen des mächtigen Vulcão do Fogo auf Sao Miguel. Was hingegen passiert, wenn glühend heiße Lava auf das kalte Meer trifft, können Sie beim Anblick der Ribeira de Maloás auf Santa Maria nachvollziehen.</div>
 
         </div>
 
 
-    <div class="pt-mySlides">
+    <div class="pt-mySlides" onclick="plusSlides(1)">
       <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight4.jpg');"></div>
 
-      <div class="pt-highlight-modal-text">Delfin- und Walbeobachtung<br>
-
+      <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Delfin- und Walbeobachtung</div>
+<div class="space--xs"></div>
           Bis zu 24 verschiedene Walarten tummeln sich vor den Azoren – also ein Drittel der bekannten Arten. Einige sind nur auf der Durchreise, andere leben dauerhaft in diesem einzigartigen Ökosystem. Als Wahrzeichen der Inseln gilt der hier heimische Pottwal, aber auch Kurzflossen-Grindwalen, Atlantischen Fleckendelfinen und Blau-Weissen-Delfinen können Sie hier begegnen. Im Winter gesellt sich ein ganz besonderer Besucher dazu: Die majestätischen Blauwale kommen auf ihrem Weg in den Norden hier vorbei. Beobachten Sie die Tiere von den Vigias da Baleia, den Walbeobachtungsposten oder kommen Sie ihnen auf verschiedenen Touren ganz nahe. Bei schlechtem Wetter informieren Museen über die Vergangenheit des Walfangs.</div>
 
     </div>
 
 
-            <div class="pt-mySlides">
+            <div class="pt-mySlides" onclick="plusSlides(1)">
               <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight5.jpg');"></div>
 
-              <div class="pt-highlight-modal-text">Levadas<br>
+              <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Levadas</div>
+        <div class="space--xs"></div>
 Am besten lässt sich die grüne Insel Madeira zu Fuß entlang der weit verzweigten Levadas entdecken. Diese Bewässerungskanäle bringen bereits seit dem 16. Jahrhundert Wasser aus dem niederschlagsreichen Norden in den Süden. Zwar dienten Sie ursprünglich nur der Bewässerung der Felder und dem Betrieb von Wasserkraftwerken, doch heute können Sie entlang des über 3.000 km langen Wegenetzes einen faszinierenden Einblick in die Inselwelt erhaschen und wundervolle Landschaften auf bis zu 1.862 Höhenmetern erkunden.
             </div>
 </div>
 
-        <div class="pt-mySlides">
+        <div class="pt-mySlides" onclick="plusSlides(1)">
           <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight6.jpg');"></div>
 
-          <div class="pt-highlight-modal-text">Laurisilva<br>
+          <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Laurisilva</div>
+    <div class="space--xs"></div>
 
               Finden Sie heraus, wie es sich anfühlt in einem urzeitlichen Wald aus dem Tertiär zu spazieren und die erhabene Atmosphäre zu spüren. Während die uralten Lorbeerwälder überall sonst der Eiszeit zum Opfer fielen, können Sie dieses faszinierende Relikt auf Madeira noch im über 15.000 ha großen Laurazeenwald hautnah erleben. Das subtropische Grün zählt mit seinen mehr als 20 charakteristischen Baumarten wie dem Azoren-Lorbeer seit 1999 zum UNESCO-Weltnaturerbe.
 
@@ -195,19 +201,25 @@ Am besten lässt sich die grüne Insel Madeira zu Fuß entlang der weit verzweig
 
 </div>
 
-<div class="pt-mySlides">
+<div class="pt-mySlides" onclick="plusSlides(1)">
   <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight7.jpg');"></div>
 
-  <div class="pt-highlight-modal-text">Naturpark Serra da Estrela <br>
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Naturpark Serra da Estrela</div>
+<div class="space--xs"></div>
 
 Auf über 100 ha erstreckt sich der erste und zugleich größte Naturpark Portugals. In der alpinen Landschaft ist eine unglaublich vielfältige Tier- und Pflanzenwelt beheimatet: Otter und Ginsterkatzen, Steinadler und Schwarzmilane leben hier zwischen Glockenblumen, Wacholder, Ginster, Kastanien, Eichen und Kiefern. Den Startpunkt Ihrer Entdeckungstouren sollte das CISE, das Centro de Interpretação da Serra da Estrela bilden. Hier bekommen Sie wertvolle Routenvorschläge sowie Infos zu Hintergründen und Highlights des Naturparks. Wussten Sie zum Beispiel, dass sich rund um den Gipfel Torre das einzige Skigebiet des Landes mit neun Pisten und vier Liften befindet?
 </div>
 </div>
 
-<div class="pt-mySlides">
-<div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight8.jpg');"></div>
+<div class="pt-mySlides" onclick="plusSlides(1)">
+<div class="pt-highlight-youtube" style=""> <div class="h_iframe">
+        <!-- a transparent image is preferable-->
+        <img class="ratio" src="../_assets/img/graphics/pt-youtube-placeholder.png"/>
+        <iframe src="https://www.youtube.com/embed/JtUv0zmQuUk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div></div>
 
-<div class="pt-highlight-modal-text">Nazaré<br>
+<div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Nazaré</div>
+<div class="space--xs"></div>
 
   Das kleine Örtchen Nazaré, im Sommer Fischerdorf und Pilgerstätte, zieht im Winter Surfer aus aller Welt an. Der Grund: eine der größten surfbaren Wellen der Welt. Einige hundert Meter vor dem Strand Praia do Norte brechen im offenen Atlantik, über einem 230 km langen und 5.000 m tiefen Unterwasser-Canyon überwältigende Wellen von bis zu 35 m Höhe – sogenannte Monsterwellen. Jährlich versammelt sich die Surf-Elite in dem kleinen Ort, um an der Big Wave Nazaré Challenge teilzunehmen und mit etwas Glück einen neuen Weltrekord aufzustellen.
 
@@ -215,9 +227,7 @@ Auf über 100 ha erstreckt sich der erste und zugleich größte Naturpark Portug
 
 </div>
 
-    <div class="pt-caption-container">
-      <p id="pt-caption"></p>
-    </div>
+
 
 
 
