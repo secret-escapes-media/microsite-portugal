@@ -177,26 +177,42 @@ sections:
 </div>
 <div class="harvey vpad--xl pt-hidden" style="background-color:#47484a;">
 
-  <div class="container container--xl text--center "><div class="core-title core-title--xl text--white ">Unsere Highlights</div>
+  <div class="container container--lg text--center "><div class="core-title core-title--xl text--white ">Unsere Highlights</div>
 
-  <div class="space--xxl"></div>
-  <button class="accordion pt-pleasure">Für Genießer</button>
+  <div class="space--xxxl"></div>
+
+
+
+<div class="accordion pt-pleasure">Für Genießer</div>
+<div class="panel">
+  <a href="#" class="text--darker">
+  <div class="panel-img text--white core-title--md text--bold" style=" background-image: url('{{site.img}}/content/pleasure/highlight2.jpg'); ">Heiße Quellen</div>
+  <p>Weißer Dampf steigt über dem gurgelnden Wasser empor, umgeben von üppiger, grüner Vegetation – ein Anblick, der kaum beeindruckender sein könnte. Die heißen Quellen auf Sao Miguel, der Hauptinsel der Azoren, entstehen in den vulkanischen Landschaften und laden nicht nur zum Staunen ein, sondern auch zum Baden. <br><div class="space--xs"></div><div class=" text--bold">Mehr erfahren</div></p></a>
+<div class="space--sm"></div>
+  <a href="#" class="text--darker">
+  <div class="panel-img text--white core-title--md text--bold" style=" background-image: url('{{site.img}}/content/pleasure/highlight8.jpg'); ">Weinfeste in Alentejo</div>
+  <p>Zum Ende des Jahres hin, wenn es in Deutschland schon grau und kalt ist, werden im Alentejo bei milden Temperaturen ereignisreiche Weinfeste gefeiert. Im November findet das „Festa da Vinha e do Vinho" in Borba statt, bei welchem lokale Winzer ihre Produkte anbieten, die oft noch nach alter Tradition in Tongefäßen gelagert werden. <br><div class="space--xs"></div><div class=" text--bold">Mehr erfahren</div></p></a>
+</a>
+
+</div>
+
+<div class="space--md"></div>
+
+<div class="accordion pt-active">Für Aktive</div>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
+
 <div class="space--md"></div>
-<button class="accordion pt-active">Für Aktive</button>
+
+<div class="accordion pt-nature">Für Naturfreunde</div>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
-<div class="space--md"></div>
-<button class="accordion pt-nature">Für Naturfreunde</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
 
 <div class="space--md"></div>
+
 <div class="accordion pt-culture">Für Kulturliebhaber</div>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -228,10 +244,10 @@ function toggle(n){
 
 var acc = document.getElementsByClassName("accordion");
 
-var i;
+var j;
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
+for (j = 0; j < acc.length; j++) {
+    acc[j].addEventListener("click", function() {
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {

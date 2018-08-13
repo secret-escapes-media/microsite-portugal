@@ -91,12 +91,12 @@
     @media only screen and (max-width: 970px) {
 
 
-      .pt-culture, .pt-active, .pt-pleasure, .pt-pleasure{
+      .pt-culture, .pt-active, .pt-pleasure, .pt-nature{
 
           border-radius: 6px;
 
     }}
-/************ Preview-Box / accordion***************/
+/************ Preview-Box / accordion ***************/
 
 
 
@@ -132,21 +132,57 @@ color: #fff;
     color: #fff;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.4s;
+    font-weight: normal;
 }
+.accordion::after{
+  content: url(../img/icons/close.svg);
+  transform: scale(.3) rotate(45deg);
+  display: block;
+  margin-top: -42px;
+  margin-bottom: -18px;
+  margin-left: 90%;
+}
+ .accordion:hover{
 
-.active, .accordion:hover {
-    /*background-color: #ccc;*/
+   font-weight: bold;
+ }
+ .active{
+
+      font-weight: bold;
+
+
+     /**/
+ }
+.active::after {
+content: url(../img/icons/close.svg);
+  transform: scale(.3)  rotate(0deg);
+
 }
 
 .panel {
-    padding: 0 18px;
+    padding:18px;
+    margin-top: -3px;
     display: none;
     background-color: white;
     overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+
 }
 
+.panel-img{
+width:100%;
+padding-bottom: 20%;
+padding-top:20%;
+background-size: cover;
+text-align: center;
+
+}
 
 /********** Hhighlights  **************/
 
