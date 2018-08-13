@@ -6,6 +6,22 @@
   background-color: #fff;
 }
 
+@media only screen and (max-width: 970px) {
+  .pt-intro-bg{
+    background-image:url(../img/graphics/tiles.svg);
+    background-size:120px;
+    background-color: #fff;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .pt-intro-bg{
+    background-image:url(../img/graphics/tiles.svg);
+    background-size:100px;
+    background-color: #fff;
+  }
+}
+
+
 /******* hide*******/
 .pt-hidden{
   display: none;
@@ -71,6 +87,15 @@
   color: #ea5152;
   }
 
+
+    @media only screen and (max-width: 970px) {
+
+
+      .pt-culture, .pt-active, .pt-pleasure, .pt-pleasure{
+
+          border-radius: 6px;
+
+    }}
 /************ Preview-Box / accordion***************/
 
 
@@ -148,7 +173,6 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
 .pt-highlights-divider::after{
-
     content: url(../img/graphics/highlight-divider-aft.png);
 
 margin-left: 15px;
@@ -157,15 +181,76 @@ margin-left: 15px;
 }
 .pt-highlights-divider::before{
   content: url(../img/graphics/highlight-divider-bef.png);
+
 margin-right: 15px;
+
 }
+
 .pt-title-divider::after{
-  content: url(../img/graphics/title-divider.png);
+  content: url(../img/graphics/title-divider.svg);
   display: block;
-  margin-top: -60px;
+  margin-top: -40px;
+  transform: scale(.45);
+
 }
 
+@media only screen and (max-width: 800px) {
 
+
+
+  .pt-title-divider::after{
+  content: url(../img/graphics/title-divider.svg);
+  transform: scale(.5);
+  display: block;
+  margin-top: -10px;
+
+  }
+
+
+}
+
+@media only screen and (max-width:600px) {
+
+  .pt-highlights-divider::after{
+    content: url(../img/graphics/highlight-divider-mob.svg);
+    transform: scale(.4);
+    display: block;
+    margin-top: 0px;
+    margin-bottom: -25px;
+
+
+  }
+  .pt-highlights-divider::before{
+    content: '';
+
+
+  }
+
+
+
+
+  .pt-title-divider::after{
+    content: url(../img/graphics/title-divider.svg);
+    transform: scale(.4);
+    display: block;
+    margin-top: -20px;
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.pt-title-divider::after{
+  content: url(../img/graphics/title-divider.svg);
+  transform: scale(.6);
+
+  margin-top: -10px;
+
+
+}
+.banner-title{
+  font-size: 40px;
+}
+}
 
 /**********Map*************/
 
