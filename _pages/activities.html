@@ -8,65 +8,389 @@ intro: this is my home page
 
 sections:
   - id: section-1
-    title: Section 1
+    title: Surfen
   - id: section-2
-    title: Section 2
+    title: Wandern
   - id: section-3
-    title: Section 3
+    title: Golfen
   - id: section-4
-    title: Section 4
+    title: Gleitschirmfliegen
+  - id: section-5
+    title: Canyoning
+  - id: section-6
+    title: Radfahren
 
 ---
 
 
-{% include nav/page.html content=page.sections %}
+<div class="harvey vpad--xxl pt-intro-bg" style="">
 
-
-<div class="container vpad--xxl">
-
-  <div class="title title--lg text--center">Bob layout</div>
-
+  <div class="container container--xl text--center pt-box-shadow" style="background-color:#fff;">
+  <div class="space--md"></div>
+    <!-- <div class="core-title core-title--xl">Lorem ipsum dolor sit amet</div> /-->
+    <p class="text--xxl">
+Zwischen Korkeichen und Kulturstätten oder Atlantik und Mittelmeer gibt es zahlreiche Möglichkeiten, Portugal an Land und auf dem Wasser aktiv zu erleben: Erwischen Sie die perfekte Welle auf den Azoren, wandern Sie auf der Rota Vicentina am Rande Europas entlang oder durch traumhafte Naturschutzgebiete auf Madeira und bezwingen Sie die Gipfel des Naturparks der Serra da Estrela im Zentrum Portguals mit dem Rad. Es bieten sich hervorragende Gelegenheiten, im Urlaub in Bewegung zu bleiben und Land und Leute zu entdecken. </p>
+    <div class="space--lg"></div>
+  </div>
   <div class="space--lg"></div>
 
-  <div class="bob" id="section-1">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
-    </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
+</div>
+
+  {% include nav/page.html content=page.sections %}
+
+<div class="container vpad--lg" style="">
+  <div class="space--xxl" id="section-1"></div>
+
+  <div class="core-title core-title--lg text--center">Surfen</div>
+
+  <div class="space--lg"></div>
+  <div class="container container--lg text--center">
+
+
+    <p class="text--lg">Auch im Winter lockt Portugal Liebhaber von Swells und Breaks mit endlosen Stränden, rauen Felsen und idealem Wind. Die Bedingungen für Surfsport sind dort einmalig, abwechslungsreich und für jedes Level geeignet. Egal ob im Süden des Landes, an der Westküste oder auf den Azoren – die Möglichkeiten sind vielfältig und für jeden Surf-Fan und neugierigen Beginner ist garantiert das Richtige dabei. </p>
+    <div class="space--xl"></div>
+
   </div>
-  <div class="bob bob--swap" id="section-2">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
-    </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
-  </div>
+  <div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+
+<div class="row row--gutters-md">
+  <div class="col col--lg-6 col--xxl-4 text--center"><a  onclick="openModal();currentSlide(1)" data-modal-item="highlight1" data-modal-group="section" class="">
+    <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+    <h4 class="core-title core-title--xs text--bold text--upper">Algarve</h4><div class="space--xs"></div>Die Küste der Algarve teilt sich in einen südlichen und einen westlichen Teil...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+    <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(2)"  data-modal-item="highlight2" data-modal-group="section" class="">
+    <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+    <h4 class="core-title core-title--xs text--bold text--upper">Centro</h4><div class="space--xs"></div>Die Strände von Peniche überzeugen das ganze Jahr über mit Stimmung...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+    <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(2)"  data-modal-item="highlight3" data-modal-group="section" class="">
+    <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight3.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+    <h4 class="core-title core-title--xs text--bold text--upper">Azoren</h4><div class="space--xs"></div>Die neun Inseln der Azoren bieten durch ihre unterschiedliche landschaftliche...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+
 
 </div>
 
-<div class="title title--lg vpad--lg text--center">Harvey layout</div>
 
-<div class="harvey" id="section-3">
-  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
-    <a class="harvey__link" href="#image-link"></a>
+  <div class="space--xxl" id="section-2"></div>
+
+  <div class="core-title core-title--lg text--center">Wandern</div>
+
+  <div class="space--lg"></div>
+  <div class="container container--xl text--center">
+
+
+    <p class="text--lg">Wanderern bieten die Inseln aus Vulkangestein und das portugiesischen Festland vielfältige Wanderrouten und Pfade durch die teils unberührte Natur. Laufen Sie durch kleine Ortschaften, vorbei an Ruinen und Denkmälern, über Sandstrände mit Blick auf den Atlantik oder hoch hinaus auf die Gipfel Portugals. Oder wandern Sie entlang der Pfade des heiligen Jakobsweges und finden Sie Ruhe in sich selbst. </p>
+    <div class="space--xl"></div>
+
   </div>
-  <div class="harvey__text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
+
+  <div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+
+  <div class="row row--gutters-md">
+    <div class="col col--lg-6 col--xxl-4 text--center"> <a  onclick="openModal();currentSlide(4)" data-modal-item="highlight4" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight4.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Madeira</h4><div class="space--xs"></div>Wandern auf Madeira ist mehr als nur eine Möglichkeit sportlich aktiv zu sein...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+      <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(5)" data-modal-item="highlight5" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight5.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Azoren</h4><div class="space--xs"></div>Egal welche der neun Inseln des Azoren-Archipels Sie auswählen, fast jede...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+      <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(6)" data-modal-item="highlight6" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight6.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Der portugiesische Jakobsweg</h4><div class="space--xs"></div>Auf den Pfaden von Pilgern wandern und in ruhigen Momenten zu sich selbst finden...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+  </div>
+  <div class="space--xxl" id="section-3"></div>
+<div class="core-title core-title--lg text--center">Golfen</div>
+
+<div class="space--lg"></div>
+<div class="container container--xl text--center">
+
+
+  <p class="text--lg">Im angenehmen Klima von Portugal ist das Golfspiel ein wahres Vergnügen. Verbinden Sie einen Citytrip nach Lissabon mit sportlichen Herausforerungen auf erstklassigen Golfplätzen oder entdecken Sie die Algarve mit ihrer spektakulären Küste, exklusiven Strandresorts und der höchsten Konzentration an Golfplätzen. Auch Madeira und die Azoren bieten idyllisch gelegene Golfplätze inmitten grüner Natur. </p>
+  <div class="space--xl"></div>
+
+</div>
+<div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+<div class="space--xl"></div>
+
+<div class="row row--gutters-md">
+  <div class="col col--lg-6 col--xxl-4 text--center"> <a  onclick="openModal();currentSlide(7)" data-modal-item="highlight7" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight7.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+    <h4 class="core-title core-title--xs text--bold text--upper">Algarve</h4><div class="space--xs"></div>Niemand Geringeres als Sir Henry Cotton erhob die Algarve in den Rang einer...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+    <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(8)" data-modal-item="highlight8" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight8.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Lissabon & Umgebung</h4><div class="space--xs"></div>Die Region um Lissabon wurde bereits mehrfach von der IAGTO als bestes...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+</div>
+
+    <div class="space--xxl" id="section-4"></div>
+
+  <div class="core-title core-title--lg text--center">Gleitschirmfliegen</div>
+
+  <div class="space--lg"></div>
+  <div class="container container--xl text--center">
+
+
+    <p class="text--lg">Erleben Sie Portgual aus der Vogelperspektive: beim Küstensoaring auf den Azoren oder Thermikflügen über das Madeira-Archipel. Mildes Klima und einzigartige Topographie garantieren perfektes Flugwetter und Wind- und Wetter- sowie Start- und Lande-Informationen ebenso wie die Ausrüstung sind leicht vor Ort erhältlich. Anfänger können den Sport bei einem Tandemflug kennenlernen.</p>
+    <div class="space--xl"></div>
+
+  </div>
+  <div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+  <div class="space--xl"></div>
+  <div class="row row--gutters-md">
+
+        <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(9)" data-modal-item="highlight9" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight9.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Azoren</h4><div class="space--xs"></div>Die Azoren aus der Vogelperspektive: Erleben Sie die Inselwelt unter sich...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+    <div class="col col--lg-6 col--xxl-4 text--center"> <a  onclick="openModal();currentSlide(10)" data-modal-item="highlight10" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight10.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Madeira </h4><div class="space--xs"></div>Auch auf der Blumeninsel Madeira warten wunderschöne Landschaften darauf...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+
+
+  </div>
+  <div class="space--xxl" id="section-5"></div>
+<div class="core-title core-title--lg text--center">Canyoning</div>
+
+<div class="space--lg"></div>
+<div class="container container--xl text--center">
+
+
+  <p class="text--lg">Hoch hinaus und tief hinab, Adrenalin auf den Azoren und auf Madeira: Beim Canyoning geht es mit Klettern, Rutschen, Springen und Abseilen horizontal und vertikal durch Schluchten und Wasserfälle. Das ist Berg- und Wassersport in absolut actiongeladener Weise. Auf geführten Touren wird für Ihre Sicherheit gesorgt, sodass Sie sich ganz auf das Naturerlebnis und den Sport konzentrieren können.</p>
+  <div class="space--xl"></div>
+
+</div>
+<div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+<div class="space--xl"></div>
+<div class="row row--gutters-md">
+    <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(11)" data-modal-item="highlight11" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight11.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Azoren</h4><div class="space--xs"></div>Auf São Miguel, São Jorge und Flores kann man besonders diesen Sport für ...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+
+        <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(12)" data-modal-item="highlight12" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight12.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Madeira </h4><div class="space--xs"></div>Die Insel Madeira ist ein wahres Paradies für Fans von Canyoning...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+</div>
+<div class="space--xxl" id="section-6"></div>
+<div class="core-title core-title--lg text--center">Radfahren</div>
+
+<div class="space--lg"></div>
+<div class="container container--xl text--center">
+
+
+<p class="text--lg">Erkunden Sie das Land der alten Seefahrernation auf zwei Rädern. An der Algarve im sonnigen Süden sowie im beschaulichen Hinterland des Centro garantieren gut ausgebaute Radwege und wunderschöne Routen ein gelungenes Urlaubserlebnis. Zwischen Alentejo und Algarve bezaubern Weinberge, Olivenhaine und Mandelplantagen, immergrüne Korkeichen und weitläufige Getreidefelder. </p>
+<div class="space--xl"></div>
+
+</div>
+<div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+<div class="space--xl"></div>
+<div class="row row--gutters-md">
+
+      <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(13)" data-modal-item="highlight13" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight13.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Algarve </h4><div class="space--xs"></div>Fahren Sie mit dem Rad bis ans Ende Europas: Portugals Süden präsentiert...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+<div class="col col--lg-6 col--xxl-4 text--center"> <a  onclick="openModal();currentSlide(14)" data-modal-item="highlight14" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight14.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+  <h4 class="core-title core-title--xs text--bold text--upper">Centro </h4><div class="space--xs"></div>Das historische Zentrum Portugals Região Centro ist ein besonderes Paradies...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+
+
+</div>
+
+</div>
+  <div class="space--xxl"></div>
+</div>
+
+<!-- Gallery /-->
+<div id="myModalWind" class="pt-modal_highlights">
+<div class="pt-prev" id="arrow1" onclick="plusSlides(-1)" ></div >
+<div  class="pt-next" id="arrow2" onclick="plusSlides(1)"></div >
+  <div class="pt-close pt-cursor" onclick="closeModalWind()"></div>
+  <div class="pt-modal-content-details">
+
+    <div class="pt-mySlides" onclick="plusSlides(1)">
+    <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"></div>
+
+      <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Surfen - Algarve</div>
+        <div class="space--xs"></div>
+  Die Küste der Algarve teilt sich in einen südlichen und einen westlichen Teil der Atlantikküste auf, wo an allen Orten die mediterranen Einflüsse zu spüren sind. Egal zu welcher Jahreszeit, die Chance hier ideale Bedingungen für einen Nachmittag in den Wellen zu finden, ist sehr hoch. In 10 Surfclubs und 31 Surfschulen ist es im Süden Portugals möglich professionelles Equipment zu leihen und Kurse zu buchen. Neben den guten Wellen und dem günstigen Wind, liegen in der Region traumhaft wilde Strände, kleine Buchten und bewachsene Dünen, die in den milderen Monaten oft wunderbar ruhig und nur von ein paar Surfern besucht sind.
+
+     </div>
+
+    </div>
+
+    <div class="pt-mySlides" onclick="plusSlides(1)">
+      <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"></div>
+
+      <div class="pt-highlight-modal-text"><div class="core-title core-title--xs ">Surfen - Centro</div>
+  <div class="space--xs"></div>
+        Die Strände von Peniche überzeugen das ganze Jahr über mit Stimmung, Veranstaltungen, riesigen Wellen und Trainigsorten von einigen der besten Surfer der Welt. Die ehemalige Insel wurde durch Wind- und Wetterbedingungen zu einer Halbinsel und ist heute direkt ans Festland angeschlossen. Besonders in den Wintermonaten werden die Wellen höher und der Wind stärker, sodass der Surfspaß garantiert ist. Surfschulen und professionelle Surfer bieten zu dieser Zeit kleine Trips zu den besten Surfspots der Region an. Ein besonderer Geheimtipp ist der Strand Praia do Baleal Norte/Lagido, der bekannt für seine wütenden Wellen ist. Legt sich der Wind gegen Abend, kann man einen traumhaften Sonnenuntergang beobachten. </div>
+
+    </div>
+
+        <div class="pt-mySlides" onclick="plusSlides(1)">
+          <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight3.jpg');"></div>
+
+          <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Surfen - Azoren</div>
+  <div class="space--xs"></div>
+  "Die neun Inseln der Azoren bieten durch ihre unterschiedliche landschaftliche Beschaffenheit abwechslungsreiche Bedingungen zum Surfen, Bodyboarden, Windsurfen und Stand-Up-Paddeling. Starke Wellen und Stürme machen die Küsten nahe der „Wetterküche Europas“ im Winter zu Surfspots für echte Profis. Auf der Hauptinsel Saõ Miguel ist eine weit verbreitete Surfkultur vorhanden und fast alle Strände eignen sich für einen Ritt in den Wellen. Besonders schön ist es am Strand Mosteiros, wo Reste eines Vulkanes in den Himmel ragen, an denen sich die Wellen brechen. In geschützten Buchten und an Landengen sind die Bedingungen auch für unerfahrene Surfer optimal.
+" </div>
+
+        </div>
+
+
+    <div class="pt-mySlides" onclick="plusSlides(1)">
+      <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight4.jpg');"></div>
+
+      <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Wandern - Madeira</div>
+<div class="space--xs"></div>
+      Wandern auf Madeira ist mehr als nur eine Möglichkeit sportlich aktiv zu sein. Die kleinen Wasserläufe, die sogenannten Levadas, ziehen sich über die gesamte Insel wie ein Netz aus Lebensadern und führen Wanderer über weite Landschaften, steile Hänge, kühle Wälder und auf die Gipfel der Insel. Lassen Sie sich von der abwechslungsreichen Landschaft verzaubern und entdecken Sie traumhafte Naturschutzgebiete wie den „Parque Natural da Madeira“ (Naturpark von Madeira) und den „Parque Ecológico do Funchal“ (Ökologischer Park von Funchal). Bis zu 3000 km Wanderstrecke, die sich bis auf 1.862 Höhenmeter zieht, warten darauf von Ihnen erklommen zu werden. </div>
+
+    </div>
+
+
+            <div class="pt-mySlides" onclick="plusSlides(1)">
+              <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight5.jpg');"></div>
+
+              <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Wandern - Azoren</div>
+        <div class="space--xs"></div>
+Egal welche der neun Inseln des Azoren-Archipels Sie auswählen, fast jede Ecke ist über Wanderwege und Fußpfade miteinander verknüpft. Von klaren Seen über Hügel bis zu den traumhaften Sandstränden kann alles zu Fuß erkundet werden. Romantische Ruinen, alte Kirchen und steinerne Brücken begegnen Ihnen auf Ihrem Weg genau so wie bunte Vegetation, moosbewachsene Felsen und Weinberge. Die Strecke von Mata do Canário bis Sete Cidades auf der Insel São Miguel ist beispielsweise mit einem mittlerem Schwierigkeitsgrad versehen und führt vorbei an einigen Sehenswürdigkeiten sowie spektakulären Panoramaausblicken auf bis zu 900 m Höhe.
+            </div>
+</div>
+
+        <div class="pt-mySlides" onclick="plusSlides(1)">
+          <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight6.jpg');"></div>
+
+          <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Wandern - Der portugiesische Jakobsweg</div>
+    <div class="space--xs"></div>
+
+            Auf den Pfaden von Pilgern wandern und in ruhigen Momenten zu sich selbst finden – das können Sie auf dem Jakobsweg. Teile der berühmten Strecke befinden sich auf der Westseite Portugals und führen vorbei an kulturellen Stätten, religiösen und symbolträchtigen Orten und vielen historischen Denkmälern. Es empfiehlt sich den Weg im schönen Porto zu starten, wo sie mit der Besichtigung der alten Burgmauern aus dem 12. Jahrhundert beginnen können. Weiter geht es durch das Douro-Tal, eines der schönsten Weinanbaugebiete weltweit. Folgen Sie der Küste immer Richtung Norden bis nach Santiago de Compostella in Spanien und entdecken Sie Orte wie Viana do Castelo, Vila Nova de Cerveira und Valença.
+        </div>
+
+</div>
+
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight7.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Golfen - Algarve</div>
+<div class="space--xs"></div>
+
+Niemand Geringeres als Sir Henry Cotton erhob die Algarve in den Rang einer Weltklasse-Destination für Golfer und dies bereits vor 60 Jahren. Hier golfen Sie an über 300 Sonnentagen unter Pinien und nicht selten mit Meerblick auf 40 der besten Golfplätze, die es gibt – nicht wenige davon von Sir Cotton selbst entworfen. Die meisten Plätze befinden in gut erreichbarer Lage nur ca. 30 Minuten von Faro entfernt, einige Juwele liegen an der zerklüfteten Küste in Richtung Sagres oder im ruhigen Osten der Algarve. Exklusive Hotels, ein hervorragendes gastronomisches Angebot und beschauliche Impressionen von traditionellen Fischerdörfern machen einen Golfurlaub an der Algarve perfekt.
+
+</div>
+</div>
+
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight8.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Golfen - Lissabon & Umgebung</div>
+<div class="space--xs"></div>
+
+Die Region um Lissabon wurde bereits mehrfach von der IAGTO als bestes Golf-Reiseziel Europas ausgezeichnet. Zahlreiche berühmte Plätze finden sich hier. Auf dem historischen Estoril Golf Course von 1929 werden von Ihnen in der Resortstadt Cascais auf unebenem Gelände unter Eukalyptusbäumen und Schirmakazien mit Blick aufs Mittelmeer höchstes Niveau an Akuratesse und Taktik verlangt. Auch in der Landschaft des Tejo-Tals mit ihren berühmten Korkeichen finden sich von Star-Architekten entworfenen Plätze, wie der Riba-Golfplatz von Peter Townsend oder der Santo Estevão Golfplatz von Donald Steel. Das milde Klima, die Nähe zu Lissabon und die Schönheit der Küstenlandschaft, machen diesen Landstrich ideal für einen Golfurlaub.
+
+</div>
+</div>
+
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight9.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Gleitschirmfliegen - Azoren</div>
+<div class="space--xs"></div>
+
+Die Azoren aus der Vogelperspektive: Erleben Sie die Inselwelt unter sich, während der Nordostpassat den Gleitschirm über Ihnen trägt. Kristallklares blaues Meer und Seen, saftige grüne Wiesen und Hänge und reichlich Berge laden zur Entdeckungsreise ein. Bereits 20 Mal wurde das Paragliding-Festival der Azoren auf São Miguel veranstaltet, die Inseln gelten als einzigartiges Reiseziel für Paraglider. Gleiten Sie fast schwerelos über Strände und Steilküsten oder betrachten Sie fasziniert die Vulkankrater von Furnas, Lagoa de Fogo oder Sete Cidades auf São Miguel bei einem Überlandsflug. Übrigens: Start- und Landegebühren müssen auf den Azoren nicht entrichtet werden.
+
+</div>
+</div>
+
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight10.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Gleitschirmfliegen - Madeira </div>
+<div class="space--xs"></div>
+
+Auch auf der Blumeninsel Madeira warten wunderschöne Landschaften darauf, von Ihnen aus der Luft entdeckt zu werden. Der Archipel mit der einmaligen Topographie ist bestens für Drachen- oder Gleitschirmfliegen geeignet. Nach einem Sprung ins Abenteuer laden die dicht bewachsenen Täler und schroffe, bis in den Ozean reichende Felswände zu unvergesslichen Flügen ein. An mehr als 300 Tagen im Jahr finden Sie hier gutes Flugwetter und auch in den Wintermonaten ist die Insel eines der schönsten Urlaubsfluggebiete Europas. Auch ohne fliegerische Vorkenntnisse können Sie mit einem Tandemflug frei wie ein Vogel über die Vulkaninsel gleiten.
+
+</div>
+</div>
+
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight11.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Canyoning - Azoren </div>
+<div class="space--xs"></div>
+
+Auf São Miguel, São Jorge und Flores kann man besonders diesen Sport für Adrenalin-Junkies betreiben. Dort befinden sich, dank der ehemaligen Vulkane viele Schluchten, Wasserfälle, Becken und Quellen, wo man erst hoch hinausklettern muss, um sich danach wagemutig mit einem Sprung ins warme oder kalte Wasser zu begeben. Jede der Inseln hat ihre speziellen Vorteile für das Canyoning. Auf São Jorge zeichnet sich beispielsweise hauptsächlich durch Vertikalen aus, auf den anderen Inseln geht es eher horizontal nach oben.
+</div>
+</div>
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight12.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Canyoning - Madeira </div>
+<div class="space--xs"></div>
+
+Die Insel Madeira ist ein wahres Paradies für Fans von Canyoning. Zahlreiche Trails führen durch wunderschöne Landschaften und halten für jeden Schwierigkeitsgrad einen Weg bereit. Sie können klettern, schwimmen, springen, tauchen und die Insel auf eine unvergessliche und naturverbundene Art und Weise kennenlernen. In den Herbst- und Wintermonaten eignen sich besonders die Hänge und Schluchten an der Südseite der Insel für abenteuerliche Klettertouren, da das Gefälle und die Strömung dort weniger ausgeprägt sind, als auf der Nordseite. Erfahrene Kletterer können sich auch an den Basaltfelsen auf Madeira versuchen.
+
+</div>
+</div>
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight13.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Radfahren - Algarve </div>
+<div class="space--xs"></div>
+
+Fahren Sie mit dem Rad bis ans Ende Europas: Portugals Süden präsentiert sich als eine der schönsten Küstenlandschaften Europas mit viel Charme, gastfreundlichen Menschen und ebenso quirligen wie beschaulichen Provinzstädten. Das duftende Landesinnere ist geprägt von Korkeichen, Eukalyptus und der Serra de Monchique. Besonders schön ist der Ecovia Litoral, der auf Rad- und Feldwegen am Mittelmeer durch hübsche, weiß gekalkte Städtchen von Tavira im Osten bis nach Sagres, ans gischtumtoste Cabo de São Vicente im Westen, zum westlichsten Punkt des europäischen Festlands führt. Das Wegenetz der Rota Vicentina hingegen führt auf einem Fischerwegenetz entlang der Westküste, teilweise hoch über lange Sandstrände, den Atlantik stets im Blick.
+
+</div>
+</div>
+<div class="pt-mySlides" onclick="plusSlides(1)">
+  <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight14.jpg');"></div>
+
+  <div class="pt-highlight-modal-text"> <div class=" core-title core-title--xs">Radfahren - Centro</div>
+<div class="space--xs"></div>
+
+Das historische Zentrum Portugals Região Centro ist ein besonderes Paradies für Radfahrer. Zwischen Silberküste im Westen, der 700-jährigen Universität Coimbras und UNESCO-Weltkulturerbestätte wie den drei Klöstern Alcobaça, Batalha und Tomar und den imposanten Berghängen der Serra da Estrela warten idyllische Dörfer und herrliche Natur. Erkunden Sie den Küstenstreifen auf dem Atlantik-Radweg Eurovelo 1, radeln Sie durch die Altstadt von Aveiro oder fahren Sie im Weinanbaugebiet des Dão auf der Ecopista do Dão, einer ehemaligen Bahnstrecke vorbei an einstigen Bahnhöfen, römischen Straßen und bezaubernden Dörfern auf dem Fahrradweg von Dão. Für Mountainbiker bieten sich die Hänge der Serra da Estrela an.
+
+</div>
+</div>
+
   </div>
 </div>
 
-<div class="harvey harvey--swap" id="section-4">
-  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
-    <a class="harvey__link" href="#image-link"></a>
-  </div>
-  <div class="harvey__text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-  </div>
-</div>
+<script>
+function openModal() {
+  document.getElementById('myModalWind').style.display = "block";
+  document.getElementById('arrow1').style.display = "block";
+  document.getElementById('arrow2').style.display = "block";
+}
+
+function closeModalWind() {
+  document.getElementById('myModalWind').style.display = "none";
+  document.getElementById('arrow1').style.display = "none";
+  document.getElementById('arrow2').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("pt-mySlides");
+  var dots = document.getElementsByClassName("pt-demo");
+  var captionText = document.getElementById("pt-caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" pt-active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " pt-active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
