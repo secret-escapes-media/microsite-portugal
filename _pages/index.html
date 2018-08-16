@@ -6,7 +6,8 @@ nav-order: 1
 title: Portugal
 banner:
   title: Portugal
-  title-sub: Sehnsuchtsort für Entdecker
+  title-sub:
+  title-sub2: Sehnsuchtsort für Entdecker
 
 nav-title: Überblick
 intro: this is my home page
@@ -256,11 +257,8 @@ total = document.getElementsByClassName("pt-box-shadow");
 function toggle(n){
 
 	for(i = 0; i<= total.length; i++){
-
 		document.getElementById('pt-preview-'+i).style.display ="none";
-
 		if (i == n){
-
 			document.getElementById('pt-preview-'+n).style.display ="block";
 		}
 	}
