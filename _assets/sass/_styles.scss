@@ -105,22 +105,39 @@
 }
 
 .pt-preview-wrapper{
+  position: absolute;
   background-color: #fff;
   width:55%;
   margin-left: 15%;
-  margin-top: 60%;
-color: #000;
+  bottom: 8%;
+
+  display: table;
+  color: #191919;
 border-radius: 6px;
+min-width: 370px;
+max-width: 500px;
+
 }
 
 .pt-preview-default{
   margin: 20px;
   /*background-color: #fff;*/
-  width:55%;
+  width:60%;
   margin-left: 15%;
-  margin-top: 50%;
+  margin-top: 40%;
 color: #fff;
 }
+
+@media only screen and (max-width: 1024px) {
+.pt-preview-wrapper{
+
+  margin-top: 85%;
+
+}
+}
+
+
+
 
 .accordion {
     /*background-color: #eee;*/
