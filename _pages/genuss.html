@@ -289,44 +289,52 @@ Eine andere Art von Markt finden Sie in Lissabon im Stadtteil Ribeira. Hier werd
 </div>
 
 <script>
-function openModal() {
-  document.getElementById('myModalWind').style.display = "block";
+
+// Get the modal
+var modal = document.getElementById('myModalWind');
+
+function openModal(){
+	document.getElementById('myModalWind').style.display='block';
   document.getElementById('arrow1').style.display = "block";
   document.getElementById('arrow2').style.display = "block";
 }
 
-function closeModalWind() {
-  document.getElementById('myModalWind').style.display = "none";
-  document.getElementById('arrow1').style.display = "none";
-  document.getElementById('arrow2').style.display = "none";
-}
+  function closeModalWind() {
+    document.getElementById('myModalWind').style.display = "none";
+    //document.getElementById('arrow1').style.display = "none";
+    //document.getElementById('arrow2').style.display = "none";
+  }
 
-var slideIndex = 1;
-showSlides(slideIndex);
+  var slideIndex = 1;
+  /*showSlides(slideIndex);*/
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  function plusSlides(n) {
+    //alert(n);
+   showSlides(slideIndex += n);
+  }
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
+  }
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("pt-mySlides");
-  var dots = document.getElementsByClassName("pt-demo");
-  var captionText = document.getElementById("pt-caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" pt-active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " pt-active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  //  alert(n);
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+      slides[slideIndex-1].style.display = "block";
 }
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+//	alert(event.target);
+    if (event.target == modal) {
+
+        modal.style.display = "none";
+    }
+}
+
 </script>
