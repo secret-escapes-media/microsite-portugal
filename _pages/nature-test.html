@@ -2,7 +2,7 @@
 layout: default
 id: nature
 nav: true
-nav-order: 4
+nav-order: 10
 title: Für Naturfreunde
 intro: this is my home page
 
@@ -242,19 +242,37 @@ Auf über 100 ha erstreckt sich der erste und zugleich größte Naturpark Portug
 </div>
 
 <script>
+var myWindow = document.getElementById('myModalWind');
+
+
 function openModal() {
+
   document.getElementById('myModalWind').style.display = "block";
   document.getElementById('arrow1').style.display = "block";
   document.getElementById('arrow2').style.display = "block";
 }
 
 function closeModalWind() {
-  document.getElementById('myModalWind').style.display = "none";
-  document.getElementById('arrow1').style.display = "none";
-  document.getElementById('arrow2').style.display = "none";
+  myWindow.style.display = "none";
+  //document.getElementById('arrow1').style.display = "none";
+  //document.getElementById('arrow2').style.display = "none";
 }
 
-var slideIndex = 1;
+
+
+//  alert(myWindow);
+  window.onclick = function(event) {
+  //  alert('hey');
+  myWindow.style.display == "block";
+
+      if (myWindow.style.display == "block") {
+myWindow.style.display == "none";
+        alert('ho');
+          //document.getElementById('myModalWind').style.display = "none";
+      }
+
+    }
+/*var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -263,8 +281,10 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}
+}*/
 
+
+/*
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("pt-mySlides");
@@ -281,5 +301,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " pt-active";
   captionText.innerHTML = dots[slideIndex-1].alt;
-}
+}*/
 </script>
