@@ -1,7 +1,7 @@
 ---
 layout: default
 id: nature
-nav: true
+nav: false
 nav-order: 10
 title: Für Naturfreunde
 intro: this is my home page
@@ -17,6 +17,58 @@ sections:
     title: Centro
 
 ---
+<style>
+  .w3-modal{
+    z-index:3;
+    display:none;
+    padding-top:100px;
+    position:fixed;
+    left:0;top:0;width:100%;height:100%;
+    overflow:auto;
+    background-color:rgb(0,0,0);
+    background-color:rgba(0,0,0,0.4)
+  }
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+</style>
+<div class="w3-container">
+  <h2>W3.CSS Modal</h2>
+  <p>In this example we demonstrate how to close the modal by clicking outside of the modal box.</p>
+
+  <button onclick="openMyWin()" class="w3-button w3-black">Open Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>You have two options to close this modal:</p>
+        <p>Click on the "x" or click anywhere outside of the modal!</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+function openMyWin(){
+	document.getElementById('id01').style.display='block'}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+	alert(event.target);
+    if (event.target == modal) {
+
+        modal.style.display = "none";
+    }
+}
+</script>
 
 
 <div class="harvey vpad--xxl pt-intro-bg" style="">
@@ -129,7 +181,7 @@ Portugal fasziniert mit Facettenreichtum und begeistert das Herz von Urlaubern n
       <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(8)" data-modal-item="highlight8" data-modal-group="section" class=""><div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight8.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
         <h4 class="core-title core-title--xs text--bold text--upper">Nazaré</h4><div class="space--xs"></div>Das kleine Örtchen Nazaré, im Sommer Fischerdorf und Pilgerstätte... <br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
   </div>
-</div>
+
   <div class="space--xxl"></div>
 </div>
 

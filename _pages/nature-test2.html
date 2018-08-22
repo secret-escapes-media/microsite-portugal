@@ -1,0 +1,160 @@
+---
+layout: default
+id: nature
+nav: false
+nav-order: 10
+title: Für Naturfreunde
+intro: this is my home page
+
+sections:
+  - id: section-1
+    title: Algarve
+  - id: section-2
+    title: Azoren
+  - id: section-3
+    title: Madeira
+  - id: section-4
+    title: Centro
+
+---
+
+
+
+
+
+<div class="harvey vpad--xxl pt-intro-bg" style="">
+
+  <div class="container container--xl text--center pt-box-shadow" style="background-color:#fff;">
+  <div class="space--md"></div>
+    <!-- <div class="core-title core-title--xl">Lorem ipsum dolor sit amet</div> /-->
+    <p class="text--xxl">
+Portugal fasziniert mit Facettenreichtum und begeistert das Herz von Urlaubern nicht nur im Sommer. Im Süden lockt die Algarve mit rauen Felsküsten und weiten Sandstränden Golfer und Radfahrer. Das historische Centro zwischen Atlantikküste und Serra da Estrela bietet Perlen der Bergwelt und der Meeresküste – und dazwischen Weinanbaugebiete mit sanft geschwungenen Hügellandschaften. Die Vulkanlandschaften der Inselgruppen der Azoren und die Blumeninsel Madeira liegen weit draußen im Atlantik und sind besonders attraktiv für Paraglider und Wanderer. Tauchen Sie im wahrsten Sinne des Wortes tief ein – hier finden Sie auch eine eindrucksvolle Unterwasserwelt.</p>
+    <div class="space--lg"></div>
+  </div>
+  <div class="space--lg"></div>
+
+</div>
+
+
+  {% include nav/page.html content=page.sections %}
+
+<div class="container vpad--lg" style="">
+
+
+
+
+
+
+
+  <div class="container vpad--lg" style="">
+    <div class="space--xxl" id="section-1"></div>
+
+    <div class="core-title core-title--lg text--center">Algarve</div>
+
+    <div class="space--lg"></div>
+    <div class="container container--xl text--center">
+      <p class="text--lg">Dramatische Felsformationen, ruhige kleine Buchten und kilometerlange Strände – mit dieser traumhaften Küste lockt die Algarve. Während der Ozean Surfern im milden Winter perfekte Wellen schenkt, birgt das Hinterland idyllische Dörfer und einzigartige Grabungsstätten für Kulturliebhaber. Außerhalb der Hauptsaison können Sie diese wildromantische Region besonders gut entdecken.  </p>
+      <div class="space--xl"></div>
+
+    </div>
+    <div class="core-title core-title--sm text--center pt-highlights-divider" >Ausgewählte Highlights</div>
+    <div class="space--xl"></div>
+
+  <div class="row row--gutters-lg">
+    <div class="col col--lg-6 col--xxl-4 text--center"><a  onclick="openModal();currentSlide(1)" data-modal-item="highlight1" data-modal-group="section" class="">
+      <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight1.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+      <h4 class="core-title core-title--xs text--bold text--upper">Strände</h4><div class="space--xs"></div>Auch im Winter sind die weltberühmten Strände der etwa 200 km langen...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+      <div class="col col--lg-6 col--xxl-4 text--center"><a onclick="openModal();currentSlide(2)"  data-modal-item="highlight2" data-modal-group="section" class="">
+        <div class="pt-highlight-shadow"><div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"></div><div class="highlight__text boxpad--lg bg--white">
+        <h4 class="core-title core-title--xs text--bold text--upper">Cabo de São Vicente</h4><div class="space--xs"></div>Am Kap Sankt Vinzenz fällt das Festland plötzlich 70 Meter ins tosende...<br><div class=" text--bold">Mehr erfahren</div></div></a></div></div>
+  </div>
+
+
+
+
+</div>
+
+<!-- Gallery /-->
+
+
+  <div id="myModalWind" class="pt-modal_highlights">
+
+      <div class="pt-prev" id="arrow1" onclick="plusSlides(-1)" ></div >
+      <div  class="pt-next" id="arrow2" onclick="plusSlides(1)"></div >
+        <div class="pt-close pt-cursor" onclick="closeModalWind()"></div>
+        <div class="pt-modal-content-details">
+
+           <div class="pt-mySlides">
+          <div class="pt-highlight-modal-img" style="background-image:url('http://m-stg.secretescapes.com/portugal/_assets/img/content/nature/highlight1.jpg');"></div>
+
+            <div class="pt-highlight-modal-text"><div class=" core-title core-title--xs">Strände</div>
+              <div class="space--xs"></div>
+        Am Cabo de São Vicente fällt das Festland plötzlich 70 Meter ins tosende Meer. Hier ist nicht nur der südwestlichste Punkt Portugals, sondern auch das Ende Europas: Nirgendwo auf dem Festland ist man dem Amerikanischen Kontinent näher. Es gilt seit Jahrtausenden als ein heiliger, von den Göttern bewohnter Ort. Zwischen dramatischen Klippen und malerischen kleinen Stränden steht hier der lichtstärkste Leuchtturm Europas und strahlt auf den Atlantik. Städte wie Sagres mit dem Fortaleza de Sagres und Vila do Bispo mit den einmaligen Grabungsstätten aus der Jungsteinzeit liegen gleich in der Nähe.
+
+           </div>
+
+          </div>
+
+          <div class="pt-mySlides">
+            <div class="pt-highlight-modal-img" style="background-image:url('{{site.img}}/content/{{page.id}}/highlight2.jpg');"></div>
+
+            <div class="pt-highlight-modal-text"><div class="core-title core-title--xs ">Cabo de São Vicente</div>
+        <div class="space--xs"></div>
+                    Auch im Winter sind die Strände der etwa 200 km langen Algarve ein lohnendes Reiseziel. Am Praia da Falésia spazieren Sie entlang roter, mit Pinien bewachsener Sandsteinfelsen über den breiten Sandstrand. Dank des milden Klimas können Sie das ganze Jahr über die beeindruckende Landschaft genießen, noch dazu haben Sie außerhalb der Hauptsaison die romantischen kleinen Buchten oft für sich allein. Wassersportler finden hier ideale Bedingungen vor: Zwischen Aljezur und Sagres trifft sich zu dieser Zeit die Surfszene und rund um die Ilha de Tavira können Sie Paddel- und Kanutouren unternehmen.
+                  </div>
+
+          </div>
+
+
+        </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModalWind');
+
+function openModal(){
+	document.getElementById('myModalWind').style.display='block';
+  document.getElementById('arrow1').style.display = "block";
+  document.getElementById('arrow2').style.display = "block";
+}
+
+  function closeModalWind() {
+    document.getElementById('myModalWind').style.display = "none";
+    //document.getElementById('arrow1').style.display = "none";
+    //document.getElementById('arrow2').style.display = "none";
+  }
+  /*
+  var slideIndex = 1;
+  showSlides(slideIndex);*/
+
+  function plusSlides(n) {
+    alert(n);
+  //  showSlides(slideIndex += n);
+  }
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+
+  }
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+//	alert(event.target);
+    if (event.target == modal) {
+
+        modal.style.display = "none";
+    }
+}
+
+</script>
