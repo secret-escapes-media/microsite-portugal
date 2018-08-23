@@ -1,23 +1,21 @@
 
 /*********  intro **********/
 .pt-intro-bg{
-  background-image:url(../img/graphics/tiles.svg);
+  background-image:url(../img/graphics/tiles.png);
   background-size:158px;
   background-color: #fff;
 }
 
 @media only screen and (max-width: 970px) {
   .pt-intro-bg{
-    background-image:url(../img/graphics/tiles.svg);
     background-size:120px;
-    background-color: #fff;
+
   }
 }
 @media only screen and (max-width: 600px) {
   .pt-intro-bg{
-    background-image:url(../img/graphics/tiles.svg);
     background-size:100px;
-    background-color: #fff;
+
   }
 }
 
