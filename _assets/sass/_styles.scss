@@ -57,6 +57,11 @@
   color: #299056;
   }
 
+.pt-nature-pin{
+    background-color: #299056;
+    }
+
+
 
 .pt-pleasure{
   background-color: #fcc606;
@@ -66,7 +71,9 @@
 .pt-pleasure-font{
   color: #fcc606;
   }
-
+.pt-pleasure-pin{
+      background-color: #fcc606;
+      }
 
 .pt-active{
   background-color: #4ea1d9;
@@ -76,7 +83,9 @@
 .pt-active-font{
   color: #4ea1d9;
   }
-
+.pt-active-pin{
+        background-color:  #4ea1d9;
+        }
 
 .pt-culture{
   background-color: #ea5152;
@@ -86,6 +95,9 @@
 .pt-culture-font{
   color: #ea5152;
   }
+.pt-culture-pin{
+    fil: #ea5152;
+    }
 
 
     @media only screen and (max-width: 970px) {
@@ -333,7 +345,28 @@ margin-right: 15px;
     /**/fill-opacity:1;
 
   }
+.pt-list li{
 
+    list-style: none;
+
+}
+
+.pt-legend-box{
+  float: left;
+  margin-top: -180px;
+  margin-left: -20px;
+  color: #a1a5a9;
+}
+
+.pt-legend{
+  /**/background-repeat: no-repeat;
+  background-position: left;
+background-size: 17px;
+font-weight: normal;
+padding-left: 24px;
+
+
+}
 
 
 /*********Gallery***********/
