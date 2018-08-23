@@ -3,14 +3,14 @@ layout: default
 id: overview
 nav: true
 nav-order: 1
-title: Portugal
+title: Sehnsuchtsort für Entdecker
 banner:
   title: Portugal
   title-sub:
   title-sub2: Sehnsuchtsort für Entdecker
 
 nav-title: Überblick
-intro: this is my home page
+intro: Portugal hat viele Gesichter: Die älteste Nation Europas beeindruckt mit Seefahrer-Erbe, Kulturgütern wie dem Fado und faszinierender Architektur.
 
 sections:
 
@@ -52,7 +52,7 @@ sections:
 <div class="harvey harvey--swap pt-mob-hide" id="section-2" style="background-color:#191919;">
 
   <!-- Preview Popups /-->
-  <div class="harvey__img pt-show" class="pt-preview" id="pt-preview-0" style="background-image: url('{{site.img}}/content/offers/hero.jpg');">
+  <div class="harvey__img pt-show pt-preview" id="pt-preview-0" style="background-image: url('{{site.img}}/content/offers/hero.jpg');">
 
       <div  class="pt-preview-default">
 
@@ -252,7 +252,14 @@ sections:
 
 </div>
 
+
+
+
+
 <script>
+
+/****** Interactive map *********/
+
 var total = 8;
 total = document.getElementsByClassName("pt-box-shadow");
 
@@ -266,21 +273,6 @@ function toggle(n){
 	}
 }
 
-var acc = document.getElementsByClassName("accordion");
-
-var j;
-
-for (j = 0; j < acc.length; j++) {
-    acc[j].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
 </script>
 
   <div class="space--xxl"></div>
