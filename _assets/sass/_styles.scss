@@ -136,7 +136,16 @@ color: #fff;
 }
 }
 
+.pt-opacity{
 
+ background-color: #000;
+ width:100%;
+ height: 100%;
+ padding: 0;
+ text-align: center;
+
+
+}
 
 
 .accordion {
@@ -203,7 +212,7 @@ background-position: right center;
 
 }
 
-/********** Hhighlights  **************/
+/********** Highlights  **************/
 
 .pt-highlight-shadow{
 
@@ -279,11 +288,7 @@ margin-right: 15px;
   }
   .pt-highlights-divider::before{
     content: '';
-
-
   }
-
-
 
 
   .pt-title-divider::after{
@@ -351,7 +356,7 @@ margin-right: 15px;
 .pt-modal-content-details {
   position: absolute;
 height: 100%;
-max-height: 600px;
+max-height: 620px;
 width: 100%;
 margin: auto;
 
@@ -376,7 +381,7 @@ width:100%;
 /*max-height:350px;*/
   width: 100%;
   max-width: 800px;
-  padding-top: 47.5%;
+  padding-top: 49%;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -385,16 +390,21 @@ width:100%;
 /**/padding:15px 30px 30px;
 }
 
-.pt-highlight-youtube{
-width:100%;
-height:100%;
-margin:0 auto;
-background-color:#000;
-}/**/
 
-.h_iframe        {position:relative; background-color:#000;}
-.h_iframe .ratio {display:block;width:100%; max-width: 800px;height:auto;}
-.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+.pt-iframe-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 49%;
+  background-color:#000;
+}
+
+.pt-iframe-ratio iframe {  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
 
 /* The Close Button */
 .pt-close {
