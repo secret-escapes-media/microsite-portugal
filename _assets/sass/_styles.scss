@@ -366,6 +366,7 @@ padding:0 55px;
  overflow: auto;
 }
 
+
 .pt-mySlides {
   /*display: none;*/
  margin: auto;
@@ -548,7 +549,14 @@ img.hover-shadow {
   border: #fa902a 5px solid;
 }
 
+@media only screen and (max-width: 600px) {
+  .pt-quiz-img{
+    border: #fff 3px solid;}
 
+    .pt-quiz-img:hover{
+      border: #fa902a 3px solid;
+    }
+}
 
 /************ hide map *************/
 @media only screen and (max-width: 970px) {
