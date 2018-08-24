@@ -9,7 +9,7 @@
   expires:
   link: https://www.secretescapes.de/an-all-inclusive-beach-stay-in-beautiful-madeira-savoy-calheta-beach-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76784&preview=false&gce_hpp=0
 
-- title: 5-Auszeit an der Algarve mit Mietwagen
+- title: 5*-Auszeit an der Algarve mit Mietwagen
   id: hilton-vilamoura
   location: Hilton Vilamoura As Cascatas Golf Resort & Spa, Faro, Portugal
   description: 5*-Resort mit dem größten Spa Portugals – inkl. Frühstück, Flügen & Mietwagen
@@ -24,7 +24,7 @@
   location: Monte Prado, Melgaço, Portugal
   description: Modernes Design-Boutiquehotel in schöner Lage – inkl. Frühstück & Extras
   price: 28
-  price-description: pro Person
+  price-description: pro Person - basierend auf 2 Personen
   saved: 43
   expires:
   link: https://www.secretescapes.de/monte-prado-hotel-and-spa-alvarinho-portugal76843/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76843&preview=false&gce_hpp=1
@@ -34,7 +34,7 @@
   location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
   description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
   price: 36
-  price-description: pro Person
+  price-description: pro Person - basierend auf 2 Personen
   saved: 60
   expires:
   link: https://www.secretescapes.de/macdonald-monchique-resort-and-spa-algarve-portugal78/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76751&preview=false&gce_hpp=1
@@ -44,7 +44,7 @@
   location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras bei Lissabon, Portugal
   description: Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück & Spa-Zugang
   price: 53
-  price-description: pro Person
+  price-description: pro Person - basierend auf 2 Personen
   saved: 47
   expires:
   link: https://www.secretescapes.de/dolce-camporeal-lisboa-turcifal-portugal98/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76237&preview=false&gce_hpp=1
@@ -54,7 +54,17 @@
   location: Macdonald Vale da Ribeira Residences, Mexilhoeira Grande, Portugal
   description: Refugien mit Pool im ruhigen Hinterland an der Algarve – inkl. Begrüßungsdrink
   price: 48
-  price-description: pro Person
+  price-description: pro Person - basierend auf 2 Personen
   saved: 38
   expires:
   link: https://www.secretescapes.de/macdonald-vale-da-ribeira-residences-algarve-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=75859&preview=false&gce_hpp=1
+
+- title: Zuhause in der Heimat des Portweins
+  id: house-sandeman
+  location: The House of Sandeman, Vila Nova de Gaia bei Porto, Portugal
+  description: Städtetrip & Portweintradition verbinden – inkl. Frühstück, Begrüßungsgetränk & Extras
+  price: 50
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 35
+  expires:
+  link: https://www.secretescapes.de/design-forward-portugal-hotel-with-wine-cellar-near-porto-the-house-of-sandeman-vila-nova-de-gaia/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76979&preview=false&gce_hpp=1
