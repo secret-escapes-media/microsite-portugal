@@ -1,10 +1,11 @@
-- title: Savoy Calheta Beach
+
+- title: Elegantes Strandhotel auf der Blumeninsel
   id: savoy-calheta-beach
-  location: Calheta, Madeira, Portugal
+  location: Savoy Calheta Beach, Calheta, Madeira, Portugal
   description: Traumhafte Auszeit im eleganten Strandhotel auf Portugals Inselperle – inkl. All-inclusive
-  price: 121
-  price-description: pro Zimmer pro Nacht
-  saved: 30
+  price: 60
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 22
   expires:
   link: https://www.secretescapes.de/an-all-inclusive-beach-stay-in-beautiful-madeira-savoy-calheta-beach-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76784&preview=false&gce_hpp=0
 
@@ -17,3 +18,43 @@
   saved: 14
   expires:
   link: https://www.secretescapes.de/depkg-alh-beach-fao-hilton-vilamoura-270818-faro-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76696&preview=false&gce_hpp=1
+
+- title: Die ursprüngliche Natur Nordportugals erleben
+  id: monte-prado
+  location: Monte Prado, Melgaço, Portugal
+  description: Modernes Design-Boutiquehotel in schöner Lage – inkl. Frühstück & Extras
+  price: 28
+  price-description: pro Person
+  saved: 43
+  expires:
+  link: https://www.secretescapes.de/monte-prado-hotel-and-spa-alvarinho-portugal76843/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76843&preview=false&gce_hpp=1
+
+- title: Suitenurlaub im portugiesischen Luxusresort
+  id: macdonald-monchique-resort
+  location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
+  description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
+  price: 36
+  price-description: pro Person
+  saved: 60
+  expires:
+  link: https://www.secretescapes.de/macdonald-monchique-resort-and-spa-algarve-portugal78/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76751&preview=false&gce_hpp=1
+
+- title: Vor den Toren Lissabons
+  id: dolce-camporeal
+  location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras bei Lissabon, Portugal
+  description: Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück & Spa-Zugang
+  price: 53
+  price-description: pro Person
+  saved: 47
+  expires:
+  link: https://www.secretescapes.de/dolce-camporeal-lisboa-turcifal-portugal98/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76237&preview=false&gce_hpp=1
+
+- title: Neue Villen an der Algarve
+  id: macdonald-ribeira
+  location: Macdonald Vale da Ribeira Residences, Mexilhoeira Grande, Portugal
+  description: Refugien mit Pool im ruhigen Hinterland an der Algarve – inkl. Begrüßungsdrink
+  price: 48
+  price-description: pro Person
+  saved: 38
+  expires:
+  link: https://www.secretescapes.de/macdonald-vale-da-ribeira-residences-algarve-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=75859&preview=false&gce_hpp=1
