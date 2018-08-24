@@ -27,17 +27,7 @@
   price-description: pro Person - basierend auf 2 Personen
   saved: 43
   expires:
-  link: http://bit.ly/2ww4Ifp
-
-- title: Suitenurlaub im portugiesischen Luxusresort
-  id: macdonald-monchique-resort
-  location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
-  description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
-  price: 36
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 60
-  expires:
-  link: http://bit.ly/2wosYQs
+  link: http://bit.ly/2o7N1yX
 
 - title: Vor den Toren Lissabons
   id: dolce-camporeal
@@ -47,7 +37,7 @@
   price-description: pro Person - basierend auf 2 Personen
   saved: 47
   expires:
-  link: http://bit.ly/2MQ8EBy
+  link: http://bit.ly/2MPeLGl
 
 - title: Neue Villen an der Algarve
   id: macdonald-ribeira
@@ -77,4 +67,4 @@
   price-description: pro Person - basierend auf 2 Personen
   saved: 58
   expires:
-  link: http://bit.ly/2LpwWO3
+  link: http://bit.ly/2MzE5RD
