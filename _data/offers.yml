@@ -29,25 +29,25 @@
   expires:
   link: http://bit.ly/2o7N1yX
 
-- title: Vor den Toren Lissabons
-  id: dolce-camporeal
-  location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras bei Lissabon, Portugal
-  description: Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück & Spa-Zugang
-  price: 53
+- title: Suitenurlaub im portugiesischen Luxusresort
+  id: macdonald-monchique-resort
+  location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
+  description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
+  price: 36
   price-description: pro Person - basierend auf 2 Personen
-  saved: 47
+  saved: 60
   expires:
-  link: http://bit.ly/2MPeLGl
+  link: http://bit.ly/2NfYIP1
 
-- title: Neue Villen an der Algarve
-  id: macdonald-ribeira
-  location: Macdonald Vale da Ribeira Residences, Mexilhoeira Grande, Portugal
-  description: Refugien mit Pool im ruhigen Hinterland an der Algarve – inkl. Begrüßungsdrink
-  price: 48
+- title: Luxuriöser Apartment-Urlaub in Portugal
+  id: you-and-sea
+  location: You and the sea, Ericeira, Portugal
+  description: Außergewöhnliches Aparthotel in Strandnähe mit Wellnessbereich – inkl. Begrüßungspaket
+  price: 74
   price-description: pro Person - basierend auf 2 Personen
-  saved: 38
+  saved: 28
   expires:
-  link: http://bit.ly/2P3gNA1
+  link: http://bit.ly/2PHs0aK
 
 - title: Zuhause in der Heimat des Portweins
   id: house-sandeman
@@ -68,3 +68,33 @@
   saved: 58
   expires:
   link: http://bit.ly/2MzE5RD
+
+- title: Ewiger Frühling auf Madeira
+  id: se-boutique-hotel
+  location: Sé Boutique Hotel, Funchal, Madeira, Portugal
+  description:  Inkl. Flügen, Unterkunft in einem Superior-Zimmer, Begrüßungsgetränk & Flughafentransfers
+  price: 422
+  price-description: pro Person für 7 Nächte
+  saved: 32
+  expires:
+  link: http://bit.ly/2BPaUox
+
+- title: Spa-Resort in Naturidylle
+  id: quinta-splendida
+  location: Quinta Splendida Wellness & Botanical Garden, Caniço, Madeira, Portugal
+  description: Inkl. Halbpension, Obstkorb und Wasser & Extra
+  price: 75
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 35
+  expires:
+  link: http://bit.ly/2NsVasO
+
+- title: Silvester am Atlantik – Lissabon im Lichterglanz
+  id: hotel--olissippo
+  location: Hotel Olissippo Marquês de Sá, Lissabon - Portugal
+  description: Jahreswechsel in Portugals Hauptstadt – inkl. Flügen, Frühstück, Stadtrundfahrten & Extras
+  price: 795
+  price-description: pro Person für 5 Nächte
+  saved: 20
+  expires:
+  link: http://bit.ly/2wiJLVS
