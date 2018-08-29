@@ -39,15 +39,15 @@
   expires:
   link: http://bit.ly/2NfYIP1
 
-- title: Luxuriöser Apartment-Urlaub in Portugal
-  id: you-and-sea
-  location: You and the sea, Ericeira, Portugal
-  description: Außergewöhnliches Aparthotel in Strandnähe mit Wellnessbereich – inkl. Begrüßungspaket
-  price: 74
+- title: Vor den Toren Lissabons
+  id: dolce-camporeal
+  location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras bei Lissabon, Portugal
+  description: Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück & Spa-Zugang
+  price: 53
   price-description: pro Person - basierend auf 2 Personen
-  saved: 28
+  saved: 47
   expires:
-  link: http://bit.ly/2PHs0aK
+  link: http://bit.ly/2MPeLGl
 
 - title: Zuhause in der Heimat des Portweins
   id: house-sandeman
@@ -78,16 +78,6 @@
   saved: 32
   expires:
   link: http://bit.ly/2BPaUox
-
-- title: Spa-Resort in Naturidylle
-  id: quinta-splendida
-  location: Quinta Splendida Wellness & Botanical Garden, Caniço, Madeira, Portugal
-  description: Inkl. Halbpension, Obstkorb und Wasser & Extra
-  price: 75
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 35
-  expires:
-  link: http://bit.ly/2NsVasO
 
 - title: Silvester am Atlantik – Lissabon im Lichterglanz
   id: hotel--olissippo
