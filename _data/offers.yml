@@ -59,7 +59,7 @@
   expires:
   link: http://bit.ly/2wbAteb
 
-- title: Wellness & Golf an der Bucht von Cascais
+- title: Golf & Wellness an der Bucht von Cascais
   id: hotel-quinta
   location: Hotel Quinta da Marinha Resort, Cascais, Portugal
   description:  Golf-Resort vor den Toren Lissabons – inkl. Frühstück, Wellness-Gutschein & Extras
@@ -67,7 +67,7 @@
   price-description: pro Person - basierend auf 2 Personen
   saved: 58
   expires:
-  link: http://bit.ly/2MzE5RD
+  link: http://bit.ly/2C1neSF
 
 - title: Ewiger Frühling auf Madeira
   id: se-boutique-hotel
@@ -88,3 +88,13 @@
   saved: 20
   expires:
   link: http://bit.ly/2wiJLVS
+
+- title: Spa-Resort in Naturidylle
+  id: quinta-splendida
+  location: Quinta Splendida Wellness & Botanical Garden, Caniço, Madeira, Portugal
+  description: Inkl. Halbpension, Obstkorb und Wasser & Extra
+  price: 75
+  price-description: pro Perso - basierend auf 2 Personen
+  saved: 35
+  expires:
+  link: http://bit.ly/2NsVasO
