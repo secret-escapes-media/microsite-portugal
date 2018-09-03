@@ -1,14 +1,15 @@
-- title: Savoy Calheta Beach
-  id: savoy-calheta-beach
-  location: Calheta, Madeira, Portugal
-  description: Traumhafte Auszeit im eleganten Strandhotel auf Portugals Inselperle – inkl. All-inclusive
-  price: 121
-  price-description: pro Zimmer pro Nacht
-  saved: 30
-  expires:
-  link: https://www.secretescapes.de/an-all-inclusive-beach-stay-in-beautiful-madeira-savoy-calheta-beach-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76784&preview=false&gce_hpp=0
 
-- title: 5-Auszeit an der Algarve mit Mietwagen
+- title: Elegantes Strandhotel auf der Blumeninsel
+  id: savoy-calheta-beach
+  location: Savoy Calheta Beach, Calheta, Madeira, Portugal
+  description: Traumhafte Auszeit im eleganten Strandhotel auf Portugals Inselperle – inkl. All-inclusive
+  price: 60
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 22
+  expires:
+  link: http://bit.ly/2wjjBRY
+
+- title: 5*-Auszeit an der Algarve mit Mietwagen
   id: hilton-vilamoura
   location: Hilton Vilamoura As Cascatas Golf Resort & Spa, Faro, Portugal
   description: 5*-Resort mit dem größten Spa Portugals – inkl. Frühstück, Flügen & Mietwagen
@@ -16,4 +17,84 @@
   price-description: pro Person für 7 Nächte
   saved: 14
   expires:
-  link: https://www.secretescapes.de/depkg-alh-beach-fao-hilton-vilamoura-270818-faro-portugal/sale?bypass=08445a31a78661b5c746feff39a9db6e4e2cc5cf&actualSaleId=76696&preview=false&gce_hpp=1
+  link: http://bit.ly/2PyFplt
+
+- title: Die ursprüngliche Natur Nordportugals erleben
+  id: monte-prado
+  location: Monte Prado, Melgaço, Portugal
+  description: Modernes Design-Boutiquehotel in schöner Lage – inkl. Frühstück & Extras
+  price: 28
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 43
+  expires:
+  link: http://bit.ly/2o7N1yX
+
+- title: Suitenurlaub im portugiesischen Luxusresort
+  id: macdonald-monchique-resort
+  location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
+  description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
+  price: 36
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 60
+  expires:
+  link: http://bit.ly/2NfYIP1
+
+- title: Vor den Toren Lissabons
+  id: dolce-camporeal
+  location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras bei Lissabon, Portugal
+  description: Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück & Spa-Zugang
+  price: 53
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 47
+  expires:
+  link: http://bit.ly/2MPeLGl
+
+- title: Zuhause in der Heimat des Portweins
+  id: house-sandeman
+  location: The House of Sandeman, Vila Nova de Gaia bei Porto, Portugal
+  description: Städtetrip & Portweintradition verbinden – inkl. Frühstück, Begrüßungsgetränk & Extras
+  price: 50
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 35
+  expires:
+  link: http://bit.ly/2wbAteb
+
+- title: Golf & Wellness an der Bucht von Cascais
+  id: hotel-quinta
+  location: Hotel Quinta da Marinha Resort, Cascais, Portugal
+  description:  Golf-Resort vor den Toren Lissabons – inkl. Frühstück, Wellness-Gutschein & Extras
+  price: 60
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 58
+  expires:
+  link: http://bit.ly/2C1neSF
+
+- title: Ewiger Frühling auf Madeira
+  id: se-boutique-hotel
+  location: Sé Boutique Hotel, Funchal, Madeira, Portugal
+  description:  Inkl. Flügen, Unterkunft in einem Superior-Zimmer, Begrüßungsgetränk & Flughafentransfers
+  price: 422
+  price-description: pro Person für 7 Nächte
+  saved: 32
+  expires:
+  link: http://bit.ly/2BPaUox
+
+- title: Silvester am Atlantik – Lissabon im Lichterglanz
+  id: hotel--olissippo
+  location: Hotel Olissippo Marquês de Sá, Lissabon - Portugal
+  description: Jahreswechsel in Portugals Hauptstadt – inkl. Flügen, Frühstück, Stadtrundfahrten & Extras
+  price: 795
+  price-description: pro Person für 5 Nächte
+  saved: 20
+  expires:
+  link: http://bit.ly/2wiJLVS
+
+- title: Spa-Resort in Naturidylle
+  id: quinta-splendida
+  location: Quinta Splendida Wellness & Botanical Garden, Caniço, Madeira, Portugal
+  description: Inkl. Halbpension, Obstkorb und Wasser & Extra
+  price: 75
+  price-description: pro Perso - basierend auf 2 Personen
+  saved: 35
+  expires:
+  link: http://bit.ly/2NsVasO

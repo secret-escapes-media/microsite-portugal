@@ -363,9 +363,11 @@ background-size: 17px;
 font-weight: normal;
 padding-left: 24px;
 
-
 }
-
+.ie11 img[src$=".svg"]{
+  width: 20px;
+  
+}
 
 /*********Gallery***********/
 
