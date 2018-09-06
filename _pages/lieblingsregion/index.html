@@ -4,172 +4,109 @@ id: region
 title: Lieblingsregion
 nav: true
 nav-order: 6
+nav-title: Ihre Lieblingsregion
 banner:
   title: Lieblingsregion
-  title-sub2:
   title-sub: Finden Sie Ihre
-nav-title: Ihre Lieblingsregion
+
+extra-js: true
+extra-css: true
+
+game-results:
+
+  - id: algarve
+    title: Algarve
+    description: Algarve description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+
+  - id: centro
+    title: Centro
+    description: Centro description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+
+  - id: madeira
+    title: Madeira
+    description: Madeira description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+
+  - id: azoren
+    title: Azoren
+    description: Azoren description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
 ---
 
 <div class="vpad--xl" style="background-color:#191919;">
+  <div class="game">
+    <div class="container">
 
-  <div class="container container--xl text--center">
-    <div class="core-title core-title--xl text--white">Finden Sie Ihre Lieblingsregion</div><div class="space--lg"></div>
-    <p class="text--lg text--white"> Wählen Sie Ihre 5 Favoriten, indem Sie auf die entsprechenden Bilder klicken und erhalten Sie Ihren ganz persönlichen Geheimtipp.</p>
+      <div class="game__category width width--xl">
+        <div class="vpad--lg text--center text--white">
+          <!-- game title - find region -->
+          <div class="core-title core-title--xl">Finden Sie Ihre Lieblingsregion</div>
+          <div class="space--sm"></div>
+          <div class="width width--lg">
+            <!-- game instruction - what you should do -->
+            <p class="text--xxl text--normal">Wählen Sie Ihre 5 Favoriten, indem Sie auf die entsprechenden Bilder klicken und erhalten Sie Ihren ganz persönlichen Geheimtipp.</p>
+          </div>
+        </div>
 
-  </div>
-<div class="container container--xl" style="margin-top:-50px" >
-  <div class="row row--gutters-sm">
-  <div class="col col--sm-3 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-    <div class="pt-quiz-img">
-      <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-azoren-nature-1.jpg');">
-      </div></a>
-  </div>
-  </div>
-    <div class="col col--sm-3 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-      <div class="pt-quiz-img">
-        <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-algarve-cheese-1.jpg');">
-        </div></a>
+        <div class="row row--constant-6-6 row--lg-3-3-3-3 js-game__category-list"></div>
+        <div class="space--xl"></div>
+        <div class="text--center">
+          <a class="btn btn--orange btn--large js-game__category-submit">Submit Choice</a>
+        </div>
+      </div>
+
+      <div class="game__result">
+        {% for result in page.game-results %}
+        <div class="result js-result-{{result.id}}">
+
+          <div class="text--white text--center">
+            <div class="space--xxl"></div>
+            <div class="core-sub-title">Your favourite region is...</div>
+            <div class="space--sm"></div>
+            <h3 class="core-title core-title--xxxl">{{result.title}}</h3>
+            <p class="text--xxl text--normal width width--xl">{{result.description}}</p>
+          </div>
+
+          <div class="vpad--xl">
+            <div class="row row--4-4-4">
+              <div class="col">
+                <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/game/{{result.id}}/01.jpg');"></div>
+              </div>
+              <div class="col">
+                <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/game/{{result.id}}/02.jpg');"></div>
+              </div>
+              <div class="col">
+                <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/game/{{result.id}}/03.jpg');"></div>
+              </div>
+            </div>
+          </div>
+
+          {% assign result-offer = site.data.offers | where: "game-category", result.id %}
+          {% if result-offer.size > 0 %}
+            <div>
+              <div class="text--center text--white">
+                <h4 class="core-title core-title--lg">Latest {{result.title}} Offers</h4>
+                <div class="space--lg"></div>
+              </div>
+              <div class="row row--6-6">
+
+                {% for offer in result-offer %}
+                  <div class="col">
+                    {% include offer/offer.html %}
+                  </div>
+                {% endfor %}
+              </div>
+              <div class="space--xl"></div>
+            </div>
+          {% endif %}
+
+          <div class="text--center">
+            <a href="{{site.baseurl}}/angebote" class="btn btn--orange">See All Offers</a>
+          </div>
+
+        </div>
+        {% endfor %}
+      </div>
+
     </div>
   </div>
-
-  <div class="col col--sm-3  text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-    <div class="pt-quiz-img">
-      <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-centro-surfing-1.jpg');">
-      </div></a>
-  </div>
-  </div>
-  <div class="col col--sm-3 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-    <div class="pt-quiz-img">
-      <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-madeira-nature-1.jpg');">
-      </div></a>
-  </div>
-</div>
-<div class="col col--sm-3  text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-centro-culture-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3  text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-madeira-culture-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3  text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-centro-wine-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-madeira-activities-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-azoren-thermal-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-algarve-beach-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3  text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-azoren-coast-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-algarve-food-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-madeira-market-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-algarve-culture-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-algarve-surfen-1.jpg');">
-    </div></a>
-</div>
-</div>
-<div class="col col--sm-3 col--xl-2 text--center"><a onclick="" data-modal-item="highlight5" data-modal-group="section" class="">
-  <div class="pt-quiz-img">
-    <div class="highlight__image bg-img bg-img--1-1" style="background-image:url('{{site.img}}/content/region/quiz/pt-region-azoren-whale-1.jpg');">
-    </div></a>
-</div>
-</div>
-
-  </div>
-</div>
-  <div class="space--md"></div>
-  <div class="container" style="display:none;">
-    <div class="row row--6-6">
-      <div class="col col--4">
-        <div>
-          <div class="sub-title sub-title--sm">Lorem ipsum dolor sit amet</div>
-          <div class="core-title core-title--lg">Lorem ipsum dolor sit</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut, sint officia ipsum modi neque veritatis. Velit eveniet unde ipsum similique odit commodi. Accusamus, omnis ducimus quibusdam consequuntur quod, magnam doloremque nesciunt vitae hic, sunt provident, obcaecati suscipit corporis exercitationem.</p>
-        </div>
-      </div>
-      <div class="col col--8">
-        <div>
-          <div class="sub-title sub-title--sm">Lorem ipsum dolor sit amet</div>
-          <div class="core-title core-title--lg">Lorem ipsum dolor sit</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut, sint officia ipsum modi neque veritatis. Velit eveniet unde ipsum similique odit commodi. Accusamus, omnis ducimus quibusdam consequuntur quod, magnam doloremque nesciunt vitae hic, sunt provident, obcaecati suscipit corporis exercitationem.</p>
-        </div>
-      </div>
-      <div class="col">
-        <div>
-          <div class="sub-title sub-title--sm">Lorem ipsum dolor sit amet</div>
-          <div class="core-title core-title--lg">Lorem ipsum dolor sit</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut, sint officia ipsum modi neque veritatis. Velit eveniet unde ipsum similique odit commodi. Accusamus, omnis ducimus quibusdam consequuntur quod, magnam doloremque nesciunt vitae hic, sunt provident, obcaecati suscipit corporis exercitationem.</p>
-        </div>
-      </div>
-      <div class="col">
-        <div>
-          <div class="sub-title sub-title--sm">Lorem ipsum dolor sit amet</div>
-          <div class="core-title core-title--lg">Lorem ipsum dolor sit</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut, sint officia ipsum modi neque veritatis. Velit eveniet unde ipsum similique odit commodi. Accusamus, omnis ducimus quibusdam consequuntur quod, magnam doloremque nesciunt vitae hic, sunt provident, obcaecati suscipit corporis exercitationem.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container"  style="display:none;">
-    <div class="container container--no-padding container--lg container--left">
-      <div class="core-title core-title--lg">Lorem ipsum dolor sit amet</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus recusandae libero rem? Necessitatibus consequatur quibusdam sequi voluptates aliquam labore animi in facilis adipisci, nihil repudiandae ex delectus velit culpa illo explicabo, placeat, beatae recusandae, earum assumenda veritatis alias corrupti dolorum excepturi! Totam doloribus labore vel libero debitis aliquam nam officia.</p>
-      <p>Sapiente maxime aperiam adipisci minus non voluptatum iste sunt earum, quae architecto magni assumenda quis fugit quibusdam velit repudiandae eos, tenetur voluptatibus. Rem id magni sunt ullam odio saepe accusantium, alias officia veritatis minus. Provident mollitia natus sequi voluptatibus dignissimos quis aliquam itaque quo culpa quisquam, esse. Pariatur, cumque, minima.</p>
-      <div class="core-title core-title--md">Lorem ipsum dolor sit amet</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nostrum nulla fugit sequi. Necessitatibus at minus nesciunt quis possimus nemo laudantium eveniet ipsum delectus molestiae? Iste nostrum corrupti, fuga delectus.</p>
-
-      <p>Aspernatur, laborum quae officiis ullam, distinctio harum explicabo animi quod cumque in, earum consequuntur, praesentium. Rem voluptas placeat officia necessitatibus omnis, a aliquam alias odio odit, repudiandae reprehenderit, iusto, hic!</p>
-      <p>Dolorem a, sit magnam vero quo, fuga repellendus tenetur ipsa ex deleniti dolore mollitia ratione vel. Optio, neque repudiandae id iste odio rerum amet aperiam dolore odit, nisi voluptas laborum!</p>
-      <div class="core-title core-title--sm">Lorem ipsum dolor sit amet</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut, sint officia ipsum modi neque veritatis. Velit eveniet unde ipsum similique odit commodi. Accusamus, omnis ducimus quibusdam consequuntur quod, magnam doloremque nesciunt vitae hic, sunt provident, obcaecati suscipit corporis exercitationem.</p>
-      <div class="core-title core-title--md">Lorem ipsum dolor sit amet</div>
-      <div class="core-title core-title--xxs">Voluptas nulla repellat doloremque mollitia</div>
-      </div>
-  </div>
-
-
+  <div class="space--xxl"></div>
 </div>

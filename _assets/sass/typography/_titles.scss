@@ -73,6 +73,20 @@
 
 }
 
+.core-sub-title {
+  // open-sans – core site typeface
+  font-family: $font-core;
+  font-weight: 700;
+  letter-spacing: .33rem;
+  text-transform: uppercase;
+  font-size: $s0;
+  line-height: 1.45;
+  @include bp($lg){
+    font-size: $s1;
+    line-height: 1.4;
+  }
+}
+
 
 .banner-title {
 

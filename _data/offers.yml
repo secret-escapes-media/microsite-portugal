@@ -1,108 +1,84 @@
-
 - title: Elegantes Strandhotel auf der Blumeninsel
   id: savoy-calheta-beach
-  region: madeira
-  flights:
   location: Savoy Calheta Beach, Calheta, Madeira, Portugal
   description: Traumhafte Auszeit im eleganten Strandhotel auf Portugals Inselperle – inkl. All-inclusive
   price: 60
   price-description: pro Person - basierend auf 2 Personen
   saved: 22
-  expires:
   link: http://bit.ly/2wjjBRY
+  game-category: madeira
 
 - title: 5*-Auszeit an der Algarve mit Mietwagen
   id: hilton-vilamoura
-  region: algarve
-  flights:
   location: Hilton Vilamoura As Cascatas Golf Resort & Spa, Faro, Portugal
   description: 5*-Resort mit dem größten Spa Portugals – inkl. Frühstück, Flügen & Mietwagen
   price: 488
   price-description: pro Person für 7 Nächte
   saved: 14
-  expires:
   link: http://bit.ly/2PyFplt
+  game-category: algarve
 
 - title: Die ursprüngliche Natur Nordportugals erleben
   id: monte-prado
-  region:
-  flights:
   location: Monte Prado, Melgaço, Portugal
   description: Modernes Design-Boutiquehotel in schöner Lage – inkl. Frühstück & Extras
   price: 28
   price-description: pro Person - basierend auf 2 Personen
   saved: 43
-  expires:
   link: http://bit.ly/2o7N1yX
 
 - title: Suitenurlaub im portugiesischen Luxusresort
   id: macdonald-monchique-resort
-  region: algarve
-  flights:
   location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
   description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
   price: 36
   price-description: pro Person - basierend auf 2 Personen
   saved: 60
-  expires:
   link: http://bit.ly/2NfYIP1
+  game-category: algarve
 
 - title: Zuhause in der Heimat des Portweins
   id: house-sandeman
-  region:
-  flights:
   location: The House of Sandeman, Vila Nova de Gaia bei Porto, Portugal
   description: Städtetrip & Portweintradition verbinden – inkl. Frühstück, Begrüßungsgetränk & Extras
   price: 50
   price-description: pro Person - basierend auf 2 Personen
   saved: 35
-  expires:
   link: http://bit.ly/2wbAteb
 
 - title: Golf & Wellness an der Bucht von Cascais
   id: hotel-quinta
-  region:
-  flights:
   location: Hotel Quinta da Marinha Resort, Cascais, Portugal
   description:  Golf-Resort vor den Toren Lissabons – inkl. Frühstück, Wellness-Gutschein & Extras
   price: 60
   price-description: pro Person - basierend auf 2 Personen
   saved: 58
-  expires:
   link: http://bit.ly/2C1neSF
 
 - title: Moderne Eleganz im Stadtzentrum Lissabons
   id: hotel-lis
-  region:
-  flights:
   location: Hotel Lis - Baixa, Lissabon, Portugal
   description: Inklusive Frühstück, Begrüßungsgetränk & Restaurant-Ermäßigung
   price: 66
   price-description: pro Person - basierend auf 2 Personen
   saved: 45
-  expires:
   link: http://bit.ly/2LVWRNx
 
 - title: Aparthotel im Herzen der Algarve
   id: grand-muthu
-  region: algarve
-  flights:
   location: Grand Muthu Oura View Beach Club, Albufeira, Algarve, Portugal
   description: Inkl. optionalem Frühstück, 1 Flasche Wein & Zugang zum Health Club
   price: 22
   price-description: pro Person - basierend auf 2 Personen
   saved: 54
-  expires:
   link: http://bit.ly/2wCzYtE
+  game-category: algarve
 
 - title: 5*-Designoase & Spa bei Cascais
   id: the-oitavos
-  region:
-  flights: flights-incl
   location: The Oitavos, Cascais, Portugal
   description: Premium-Zimmer im exklusiven Spa-Hotel inkl. Flügen, Frühstück & Balneo-Therapie
   price: 777
   price-description: pro Person für 5 Nächte
   saved: 25
-  expires:
   link: http://bit.ly/2Q0MiMB
