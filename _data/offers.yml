@@ -1,6 +1,8 @@
 
 - title: Elegantes Strandhotel auf der Blumeninsel
   id: savoy-calheta-beach
+  region: madeira
+  flights:
   location: Savoy Calheta Beach, Calheta, Madeira, Portugal
   description: Traumhafte Auszeit im eleganten Strandhotel auf Portugals Inselperle – inkl. All-inclusive
   price: 60
@@ -11,6 +13,8 @@
 
 - title: 5*-Auszeit an der Algarve mit Mietwagen
   id: hilton-vilamoura
+  region: algarve
+  flights:
   location: Hilton Vilamoura As Cascatas Golf Resort & Spa, Faro, Portugal
   description: 5*-Resort mit dem größten Spa Portugals – inkl. Frühstück, Flügen & Mietwagen
   price: 488
@@ -21,6 +25,8 @@
 
 - title: Die ursprüngliche Natur Nordportugals erleben
   id: monte-prado
+  region:
+  flights:
   location: Monte Prado, Melgaço, Portugal
   description: Modernes Design-Boutiquehotel in schöner Lage – inkl. Frühstück & Extras
   price: 28
@@ -31,6 +37,8 @@
 
 - title: Suitenurlaub im portugiesischen Luxusresort
   id: macdonald-monchique-resort
+  region: algarve
+  flights:
   location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
   description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
   price: 36
@@ -39,18 +47,10 @@
   expires:
   link: http://bit.ly/2NfYIP1
 
-- title: Vor den Toren Lissabons
-  id: dolce-camporeal
-  location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras bei Lissabon, Portugal
-  description: Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück & Spa-Zugang
-  price: 53
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 47
-  expires:
-  link: http://bit.ly/2MPeLGl
-
 - title: Zuhause in der Heimat des Portweins
   id: house-sandeman
+  region:
+  flights:
   location: The House of Sandeman, Vila Nova de Gaia bei Porto, Portugal
   description: Städtetrip & Portweintradition verbinden – inkl. Frühstück, Begrüßungsgetränk & Extras
   price: 50
@@ -61,6 +61,8 @@
 
 - title: Golf & Wellness an der Bucht von Cascais
   id: hotel-quinta
+  region:
+  flights:
   location: Hotel Quinta da Marinha Resort, Cascais, Portugal
   description:  Golf-Resort vor den Toren Lissabons – inkl. Frühstück, Wellness-Gutschein & Extras
   price: 60
@@ -69,32 +71,38 @@
   expires:
   link: http://bit.ly/2C1neSF
 
-- title: Ewiger Frühling auf Madeira
-  id: se-boutique-hotel
-  location: Sé Boutique Hotel, Funchal, Madeira, Portugal
-  description:  Inkl. Flügen, Unterkunft in einem Superior-Zimmer, Begrüßungsgetränk & Flughafentransfers
-  price: 422
-  price-description: pro Person für 7 Nächte
-  saved: 32
+- title: Moderne Eleganz im Stadtzentrum Lissabons
+  id: hotel-lis
+  region:
+  flights:
+  location: Hotel Lis - Baixa, Lissabon, Portugal
+  description: Inklusive Frühstück, Begrüßungsgetränk & Restaurant-Ermäßigung
+  price: 66
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 45
   expires:
-  link: http://bit.ly/2BPaUox
+  link: http://bit.ly/2LVWRNx
 
-- title: Silvester am Atlantik – Lissabon im Lichterglanz
-  id: hotel--olissippo
-  location: Hotel Olissippo Marquês de Sá, Lissabon - Portugal
-  description: Jahreswechsel in Portugals Hauptstadt – inkl. Flügen, Frühstück, Stadtrundfahrten & Extras
-  price: 795
+- title: Aparthotel im Herzen der Algarve
+  id: grand-muthu
+  region: algarve
+  flights:
+  location: Grand Muthu Oura View Beach Club, Albufeira, Algarve, Portugal
+  description: Inkl. optionalem Frühstück, 1 Flasche Wein & Zugang zum Health Club
+  price: 22
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 54
+  expires:
+  link: http://bit.ly/2wCzYtE
+
+- title: 5*-Designoase & Spa bei Cascais
+  id: the-oitavos
+  region:
+  flights: flights-incl
+  location: The Oitavos, Cascais, Portugal
+  description: Premium-Zimmer im exklusiven Spa-Hotel inkl. Flügen, Frühstück & Balneo-Therapie
+  price: 777
   price-description: pro Person für 5 Nächte
-  saved: 20
+  saved: 25
   expires:
-  link: http://bit.ly/2wiJLVS
-
-- title: Spa-Resort in Naturidylle
-  id: quinta-splendida
-  location: Quinta Splendida Wellness & Botanical Garden, Caniço, Madeira, Portugal
-  description: Inkl. Halbpension, Obstkorb und Wasser & Extra
-  price: 75
-  price-description: pro Perso - basierend auf 2 Personen
-  saved: 35
-  expires:
-  link: http://bit.ly/2NsVasO
+  link: http://bit.ly/2Q0MiMB
