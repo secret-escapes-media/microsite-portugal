@@ -106,6 +106,9 @@ function createCategoryList() {
 createCategoryList();
 $('.game__result, .result').hide();
 
+// disabled style for button
+$('.'+submitCategoryBtn).addClass('btn--disabled');
+
 ////////////////////////////////////////////////////////////////////////////////
 
 // function for selecting category options
@@ -121,32 +124,39 @@ $('body').on('click', '.'+categoryOption, function() {
     $(this).toggleClass(selectedClass);
   }
   // add visual feedback when 5 options are selected
-  if ($(selectedCategory).length == 5){
+  if ($(selectedCategory).length === 5){
     $('.'+categoryList).addClass('has-limit');
     $('.game__category').addClass('has-limit');
+    $('.'+submitCategoryBtn).removeClass('btn--disabled');
   } else {
     $('.'+categoryList).removeClass('has-limit');
     $('.game__category').removeClass('has-limit');
+    $('.'+submitCategoryBtn).addClass('btn--disabled');
   }
 });
 
 // submit function for category
 $('body').on('click', '.'+submitCategoryBtn, function() {
-  // collect selected categories
-  var selectedCategories = [];
-  $(selectedCategory).each(function() {
-    // put each answer into array
-    selectedCategories.push($(this).data('category'));
-  });
-  // stores user's most selected category
-  userCategory = mostPopularValue(selectedCategories);
-  // show the user's result
-  $('.game__result').show();
-  $('.js-result-' + userCategory).show();
-  $('.game__category').hide();
-  $('.game').addClass('game--complete');
-  // scroll back to the top of the game section
-  $('html,body').scrollTop( $('.game').offset().top );
+  // is button enabled?
+  if (!($(this).hasClass('btn--disabled'))) {
+    // collect selected categories
+    var selectedCategories = [];
+    $(selectedCategory).each(function() {
+      // put each answer into array
+      selectedCategories.push($(this).data('category'));
+    });
+    // stores user's most selected category
+    userCategory = mostPopularValue(selectedCategories);
+    // show the user's result
+    $('.game__result').show();
+    $('.js-result-' + userCategory).show();
+    $('.game__category').hide();
+    $('.game').addClass('game--complete');
+    // scroll back to the top of the game section
+    $('html,body').scrollTop( $('.game').offset().top );
+  } else {
+    return false;
+  }
 });
 
 

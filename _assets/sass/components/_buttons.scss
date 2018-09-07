@@ -14,8 +14,13 @@
   @include transition;
   &--sm { padding: $s1 $s4; font-size: $s-2; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
+  &--disabled {
+    opacity: .25;
+    user-select: none;
+    cursor: auto;
+  }
   &--orange { background-color: $orange;
-    &:hover { background-color: $orange-dark; }
+    &:hover:not(.btn--disabled) { background-color: $orange-dark; }
   }
   &--outline {
     color: inherit;
@@ -35,7 +40,7 @@
   }
   &--outline-orange {
     &:before { border-color: $orange; }
-    &:hover {
+    &:hover:not(.btn--disabled) {
       background-color: $orange;
       &:before { border-color: $orange; }
     }
