@@ -16,19 +16,19 @@ game-results:
 
   - id: algarve
     title: Algarve
-    description: Algarve description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+    description: Ihr Traumreiseziel ist die Algarve. Kosten Sie frische Meeresfrüchte und aromatischen Käse, entdecken Sie die berühmte Küste auf langen Spaziergängen, beim Surfen oder beim Abschlag auf den besten Golfplätzen Portugals.
 
   - id: centro
     title: Centro
-    description: Centro description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+    description: Die Region Centro ist das perfekte Reiseziel für Sie. Anspruchsvolle Wellen und belebte Strandpromenaden treffen auf historische Dörfer, barocke Architektur und spektakuläre Landschaft. Außerdem locken heiße Quellen und Thalassotherapie.
 
   - id: madeira
     title: Madeira
-    description: Madeira description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+    description: Ihr Glück finden Sie auf Madeira. Exotische Blumen und Früchte, grüne Hänge und tosende Wasserfälle, weit verzweigte Levadas und warme Thermalquellen – auf der Blumeninsel liegen aktiver Genuss und luxuriöse Erholung nah beieinander.
 
   - id: azoren
     title: Azoren
-    description: Azoren description lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, aut. Nihil qui recusandae a esse consectetur eius, necessitatibus tempora, earum ipsa quibusdam modi aliquid explicabo iste ratione, laborum veniam ipsum!
+    description: Ihr Top-Reiseziel sind die Azoren. Die abwechslungsreichen Vulkaninseln bieten einzigartige Natur, eine artenreiche Tierwelt und zahllose Strände. Aktivurlauber finden perfekte Bedingungen zum Wandern und Gleitschirmfliegen.
 ---
 
 <div class="vpad--xl" style="background-color:#191919;">
@@ -49,7 +49,7 @@ game-results:
         <div class="row row--constant-6-6 row--lg-3-3-3-3 js-game__category-list"></div>
         <div class="space--xl"></div>
         <div class="text--center">
-          <a class="btn btn--orange btn--large js-game__category-submit">Submit Choice</a>
+          <a class="btn btn--orange btn--large js-game__category-submit">Region finden</a>
         </div>
       </div>
 
@@ -59,9 +59,10 @@ game-results:
 
           <div class="text--white text--center">
             <div class="space--xxl"></div>
-            <div class="core-sub-title">Your favourite region is...</div>
-            <div class="space--sm"></div>
+            <div class="core-title core-title--xs text--center">Ihre Lieblingsregion ist:</div>
+            <div class="space--md"></div>
             <h3 class="core-title core-title--xxxl">{{result.title}}</h3>
+            <div class="space--md"></div>
             <p class="text--xxl text--normal width width--xl">{{result.description}}</p>
           </div>
 
@@ -83,7 +84,7 @@ game-results:
           {% if result-offer.size > 0 %}
             <div>
               <div class="text--center text--white">
-                <h4 class="core-title core-title--lg">Latest {{result.title}} Offers</h4>
+                <h4 class="core-title core-title--lg">Aktuelle {{result.title}}-Angebote</h4>
                 <div class="space--lg"></div>
               </div>
               <div class="row row--6-6">
@@ -97,9 +98,12 @@ game-results:
               <div class="space--xl"></div>
             </div>
           {% endif %}
-
+          <div class="text--center text--white">
+            <h4 class="core-title core-title--lg pt-subtitle-divider">Möchten Sie weiter stöbern?</h4>
+            <div class="space--lg"></div>
+          </div>
           <div class="text--center">
-            <a href="{{site.baseurl}}/angebote" class="btn btn--orange">See All Offers</a>
+            <a href="{{site.baseurl}}/angebote" class="btn btn--orange">Alle Angebote ansehen</a>
           </div>
 
         </div>
