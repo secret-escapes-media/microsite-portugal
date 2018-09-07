@@ -2,7 +2,11 @@
 
   <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">Zum Angebot</span></a>
 
-  <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')"></div>
+  <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')">
+    {% if offer.flight-tag %}
+      <img class="flight-tag" src="{{site.img}}/icons/flights-incl.png" alt="FLÜGE INKLUSIVE">
+    {% endif %}
+  </div>
 
   <div class="offer__content">
 
