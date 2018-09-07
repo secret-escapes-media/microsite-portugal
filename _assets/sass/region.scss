@@ -8,14 +8,38 @@
 ;
 
 .game {
-  &__category-option.is-selected > .bg-img { border-color: $orange; }
   &__category-option .bg-img {
-    &:before {
-      @include transition;
-    }
-    border: 5px solid $white;
+    border: 3px solid $white;
     cursor: pointer;
     &:hover { border-color: $orange-darker; }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-content-upper;
+      background-color: rgba($grey-darkest,.8);
+      background-image: url(../img/game/tick.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 0;
+      opacity: 0;
+      @include transition;
+    }
+
+  }
+  &__category-option.is-selected .bg-img {
+    border-color: $orange;
+    &:after {
+      opacity: 1;
+      background-size: 60px auto;
+      @include bp(large) {
+        background-size: 80px auto;
+      }
+    }
   }
   .has-limit &__category-option .bg-img:hover {
     border-color: $white;
