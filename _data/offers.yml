@@ -1,12 +1,13 @@
-- title: Elegantes Strandhotel auf der Blumeninsel
-  id: savoy-calheta-beach
-  location: Savoy Calheta Beach, Calheta, Madeira, Portugal
-  description: Traumhafte Auszeit im eleganten Strandhotel auf Portugals Inselperle – inkl. All-inclusive
-  price: 60
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 22
-  link: http://bit.ly/2wjjBRY
-  game-category: madeira
+- title: Portugal-Kombi rund um Algarve & Lissabon
+  id: portugal-kombi
+  location: Faro, Evora, Tomar & Lissabon – Portugal
+  description: Eindrucksvolles Portugal für Entdecker – inkl. Flügen, Mietwagen & Frühstück
+  price: 522
+  price-description: pro Person für 7 Nächte
+  saved: 17
+  link: http://bit.ly/2O6owNH
+  game-category: algarve
+  flight-tag: true
 
 - title: 5*-Auszeit an der Algarve mit Mietwagen
   id: hilton-vilamoura
@@ -47,14 +48,14 @@
   saved: 35
   link: http://bit.ly/2wbAteb
 
-- title: Golf & Wellness an der Bucht von Cascais
-  id: hotel-quinta
-  location: Hotel Quinta da Marinha Resort, Cascais, Portugal
-  description:  Golf-Resort vor den Toren Lissabons – inkl. Frühstück, Wellness-Gutschein & Extras
-  price: 60
+- title: Palastgeflüster in Portugals Norden
+  id: vidago-palace
+  location: Vidago Palace Hotel, Chaves, Portugal
+  description:  Zwischen Schlossromantik & Wellnessgenuss im Norden Portugals – inkl. Begrüßungspräsent
+  price: 73
   price-description: pro Person - basierend auf 2 Personen
-  saved: 58
-  link: http://bit.ly/2C1neSF
+  saved: 48
+  link: http://bit.ly/2QfE2bL
 
 - title: Moderne Eleganz im Stadtzentrum Lissabons
   id: hotel-lis
@@ -84,3 +85,62 @@
   saved: 25
   link: http://bit.ly/2Q0MiMB
   flight-tag: true
+
+- title: Sonne satt an Portugals Algarve-Küste
+  id: onyria-palmares
+  location: Onyria Palmares Beach House Hotel, Odiáxere, Lagos, Algarve, Portugal
+  description: Mit Blick auf den Ozean – inkl. Frühstück, Parkplatz & Extras
+  price: 52
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 33
+  link: http://bit.ly/2wXC1Jd
+  game-category: algarve
+
+- title: Panorama-Auszeit auf Madeira
+  id: onyria-palmares
+  location: Onyria Palmares Beach House Hotel, Odiáxere, Lagos, Algarve, Portugal
+  description: Inkl. Flügen, Frühstück, Transfers & Voucher für die Wein-Lounge
+  price: 355
+  price-description: pro Person für 7 Nächte
+  saved: 20
+  link: http://bit.ly/2O626MM
+  game-category: madeira
+  flight-tag: true
+
+- title: Erholsamer Insel-Luxus auf Madeira
+  id: savoy-saccharum-resort
+  location: Savoy Saccharum Resort & Spa, Madeira, Portugal
+  description: Entspannung im 5*-Designhotel auf Portugals Trauminsel mit Halbpension & 1x Spa-Zugang
+  price: 53
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 30
+  link: http://bit.ly/2oZ3Qwq
+  game-category: madeira
+
+- title: Suitenkomfort an der Algarve
+  id: agua-hotels
+  location: Água Hotels Vale da Lapa, Carvoeiro, Algarve, Portugal
+  description: Suite auf Wunsch für bis zu 3 Personen inkl. Frühstück & Spa-Gutschein
+  price: 28
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 42
+  link: http://bit.ly/2x25Nvv
+  game-category: algarve
+
+- title: "Perfekter Städtetrip: Lissabon"
+  id: doubletree-hilton
+  location: DoubleTree by Hilton Fontana Park, Lissabon, Portugal
+  description: Modernes Design & altbewährte Hilton-Eleganz – inkl. Flügen & Frühstück
+  price: 244
+  price-description: pro Person für 3 Nächte
+  saved: 17
+  link: http://bit.ly/2xcdoIb
+
+- title: 5*-Citytrip nach Lissabon
+  id: corinthia-hotel
+  location: Corinthia Hotel Lisbon, Lissabon, Portugal
+  description: Inkl. Frühstück, Zugang zum Pool und Fitnessbereich, Spa-Gutschein & Zoo-Eintritt
+  price: 62
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 47
+  link: http://bit.ly/2x4ENM0
