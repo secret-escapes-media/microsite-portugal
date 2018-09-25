@@ -1,146 +1,89 @@
-- title: Portugal-Kombi rund um Algarve & Lissabon
-  id: portugal-kombi
-  location: Faro, Evora, Tomar & Lissabon – Portugal
-  description: Eindrucksvolles Portugal für Entdecker – inkl. Flügen, Mietwagen & Frühstück
-  price: 522
-  price-description: pro Person für 7 Nächte
-  saved: 17
-  link: http://bit.ly/2O6owNH
-  game-category: algarve
-  flight-tag: true
-
-- title: 5*-Auszeit an der Algarve mit Mietwagen
-  id: hilton-vilamoura
-  location: Hilton Vilamoura As Cascatas Golf Resort & Spa, Faro, Portugal
-  description: 5*-Resort mit dem größten Spa Portugals – inkl. Frühstück, Flügen & Mietwagen
-  price: 488
-  price-description: pro Person für 7 Nächte
-  saved: 14
-  link: http://bit.ly/2PyFplt
-  game-category: algarve
-  flight-tag: true
-
-- title: Die ursprüngliche Natur Nordportugals erleben
-  id: monte-prado
-  location: Monte Prado, Melgaço, Portugal
-  description: Modernes Design-Boutiquehotel in schöner Lage – inkl. Frühstück & Extras
-  price: 28
+- title: Inmitten der unberührten Natur Portugals
+  id: enigma-hotel
+  location: Enigma - Nature & Water Hotel, São Teotónio, Algarve, Portugal
+  description: Doppelzimmer oder Suite mit Frühstück, 1 Kopfmassage, Spa-Zugang & Extras
+  price: 33
   price-description: pro Person - basierend auf 2 Personen
-  saved: 43
-  link: http://bit.ly/2o7N1yX
-
-- title: Suitenurlaub im portugiesischen Luxusresort
-  id: macdonald-monchique-resort
-  location: Macdonald Monchique Resort & Spa, Monchique, Algarve, Portugal
-  description: Inkl. Frühstück oder Halbpension, Spa-Zugang, Begrüßungsgetränk & Extras
-  price: 36
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 60
-  link: http://bit.ly/2NfYIP1
+  saved: 53
+  link: http://bit.ly/2NNUzFm
   game-category: algarve
 
-- title: Zuhause in der Heimat des Portweins
-  id: house-sandeman
-  location: The House of Sandeman, Vila Nova de Gaia bei Porto, Portugal
-  description: Städtetrip & Portweintradition verbinden – inkl. Frühstück, Begrüßungsgetränk & Extras
-  price: 50
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 35
-  link: http://bit.ly/2wbAteb
-
-- title: Palastgeflüster in Portugals Norden
-  id: vidago-palace
-  location: Vidago Palace Hotel, Chaves, Portugal
-  description:  Zwischen Schlossromantik & Wellnessgenuss im Norden Portugals – inkl. Begrüßungspräsent
-  price: 73
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 48
-  link: http://bit.ly/2QfE2bL
-
-- title: Moderne Eleganz im Stadtzentrum Lissabons
-  id: hotel-lis
-  location: Hotel Lis - Baixa, Lissabon, Portugal
-  description: Inklusive Frühstück, Begrüßungsgetränk & Restaurant-Ermäßigung
-  price: 66
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 45
-  link: http://bit.ly/2LVWRNx
-
-- title: Aparthotel im Herzen der Algarve
-  id: grand-muthu
-  location: Grand Muthu Oura View Beach Club, Albufeira, Algarve, Portugal
-  description: Inkl. optionalem Frühstück, 1 Flasche Wein & Zugang zum Health Club
-  price: 22
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 54
-  link: http://bit.ly/2wCzYtE
-  game-category: algarve
-
-- title: 5*-Designoase & Spa bei Cascais
-  id: the-oitavos
-  location: The Oitavos, Cascais, Portugal
-  description: Premium-Zimmer im exklusiven Spa-Hotel inkl. Flügen, Frühstück & Balneo-Therapie
-  price: 777
-  price-description: pro Person für 5 Nächte
-  saved: 25
-  link: http://bit.ly/2Q0MiMB
-  flight-tag: true
-
-- title: Sonne satt an Portugals Algarve-Küste
-  id: onyria-palmares
-  location: Onyria Palmares Beach House Hotel, Odiáxere, Lagos, Algarve, Portugal
-  description: Mit Blick auf den Ozean – inkl. Frühstück, Parkplatz & Extras
-  price: 52
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 33
-  link: http://bit.ly/2wXC1Jd
-  game-category: algarve
-
-- title: Panorama-Auszeit auf Madeira
-  id: madeira-panoramico
-  location: Hotel Madeira Panoramico
-  description: Inkl. Flügen, Frühstück, Transfers & Voucher für die Wein-Lounge
-  price: 355
-  price-description: pro Person für 7 Nächte
-  saved: 20
-  link: http://bit.ly/2O626MM
-  game-category: madeira
-  flight-tag: true
-
-- title: Erholsamer Insel-Luxus auf Madeira
-  id: savoy-saccharum-resort
-  location: Savoy Saccharum Resort & Spa, Madeira, Portugal
-  description: Entspannung im 5*-Designhotel auf Portugals Trauminsel mit Halbpension & 1x Spa-Zugang
-  price: 53
+- title: Elegantes Hideaway an der Algarve
+  id: suites-alba-resort
+  location: Suites Alba Resort & Spa, Praia de Albandeira, Algarve, Portugal
+  description: Villa-Suite – inkl. Frühstück & 1 Flasche Sekt sowie optional 1x Cleopatra-Bad für Zwei
+  price: 38
   price-description: pro Person - basierend auf 2 Personen
   saved: 30
-  link: http://bit.ly/2oZ3Qwq
-  game-category: madeira
-
-- title: Suitenkomfort an der Algarve
-  id: agua-hotels
-  location: Água Hotels Vale da Lapa, Carvoeiro, Algarve, Portugal
-  description: Suite auf Wunsch für bis zu 3 Personen inkl. Frühstück & Spa-Gutschein
-  price: 28
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 42
-  link: http://bit.ly/2x25Nvv
+  link: http://bit.ly/2NjRsWj
   game-category: algarve
 
-- title: "Perfekter Städtetrip: Lissabon"
-  id: doubletree-hilton
-  location: DoubleTree by Hilton Fontana Park, Lissabon, Portugal
-  description: Modernes Design & altbewährte Hilton-Eleganz – inkl. Flügen & Frühstück
-  price: 244
-  price-description: pro Person für 3 Nächte
-  saved: 17
-  link: http://bit.ly/2xcdoIb
-
-- title: 5*-Citytrip nach Lissabon
-  id: corinthia-hotel
-  location: Corinthia Hotel Lisbon, Lissabon, Portugal
-  description: Inkl. Frühstück, Zugang zum Pool und Fitnessbereich, Spa-Gutschein & Zoo-Eintritt
-  price: 62
+- title: Elegante Apartments in Lissabons Norden
+  id: lisbon-prime-residences
+  location: Upon Lisbon Prime Residences, Lissabon, Portugal
+  description: Moderner Chic in Studios & Apartments nahe dem Stadium von Benfica Lissabon
+  price: 33
   price-description: pro Person - basierend auf 2 Personen
-  saved: 47
-  link: http://bit.ly/2x4ENM0
+  saved: 45
+  link: http://bit.ly/2QChj9S
+
+- title: Silvester am Atlantik – Lissabon im Lichterglanz
+  id: ramada-wyndham
+  location: Ramada by Wyndham Lisbon, Lissabon, Portugal
+  description: Neujahr in Portugal – inkl. Flügen, Frühstück, Stadtrundfahrten & optionalem Silvester-Dinner
+  price: 739
+  price-description: pro Person für 5 Nächte
+  saved: 20
+  link: http://bit.ly/2pxn4cC
+  flight-tag: true
+
+- title: Wintersonne & 5*-Wonne an der Algarve
+  id: hilton-vilamoura
+  location: Hilton Vilamoura As Cascatas Golf Resort & Spa, Faro, Algarve, Portugal
+  description: 5*-Resort mit dem größten Spa Portugals – inkl. Flügen, Frühstück od. Halbpension & Extras
+  price: 299
+  price-description: pro Person für 5 Nächte
+  saved: 24
+  link: http://bit.ly/2xR63y2
+  flight-tag: true
+  game-category: algarve
+
+- title: Historisches Weingut auf Madeira
+  id: quinta-estreito
+  location: Quinta do Estreito, Estreito de Câmara de Lobos, Madeira, Portugal
+  description: Klassische Eleganz im Meerblick-Zimmer inkl. Halbpension, traditionellem Honigkuchen & Wein
+  price: 53
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 37
+  link: http://bit.ly/2IeddB6
+  game-category: madeira
+
+- title: Attraktive Apartments an der Algarve
+  id: vila-branca
+  location: Vila Branca by Água Hotels, Lagos, Portugal
+  description: Mediterrane Entspannung inmitten Portugals Kulturschätzen & Traumstränden
+  price: 18
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 27
+  link: http://bit.ly/2Dtfj1g
+  game-category: algarve
+
+- title: Den Zauber der Blumeninsel Madeira erleben
+  id: hotel-quinta
+  location: Hotel Quinta do Lorde, Madeira, Portugal
+  description: 5*-Entspannung direkt am Meer – inkl. Flügen, Transfers & Halbpension
+  price: 499
+  price-description: pro Person für 7 Nächte
+  saved: 17
+  link: http://bit.ly/2ObzDs3
+  flight-tag: true
+  game-category: madeira
+
+- title: Lissabon für urbane Entdecker
+  id: hotel-santa
+  location: Hotel Santa Justa, Lissabon, Portugal
+  description: In der Altstadt von Lissabon inkl. Frühstück, kostenloser Minibar, spätem Check-out & Extras
+  price: 64
+  price-description: pro Person für 7 Nächte
+  saved: 46
+  link: http://bit.ly/2N0pWIu
